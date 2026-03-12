@@ -1,4 +1,4 @@
-# Automatizaci-n-con-Selenium-WebDriver-BGD
+# Automatización Selenium-WebDriver-BGD
 Saucedemo Automation - Screenplay BDD
 Este proyecto contiene la automatización de pruebas para el sitio web Sauce Demo, implementando una arquitectura robusta y escalable utilizando el patrón Screenplay.
 
