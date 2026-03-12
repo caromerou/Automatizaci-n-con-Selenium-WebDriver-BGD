@@ -1,0 +1,1455 @@
+Apache Maven 3.9.13 (39d686bd50d8e054301e3a68ad44781df6f80dda)
+Maven home: C:\Users\USUARIO\Documents\apache-maven-3.9.13
+Java version: 17.0.12, vendor: Oracle Corporation, runtime: C:\Program Files\Java\jdk-17
+Default locale: es_MX, platform encoding: Cp1252
+OS name: "windows 11", version: "10.0", arch: "amd64", family: "windows"
+[DEBUG] Created new class realm maven.api
+[DEBUG] Importing foreign packages into class realm maven.api
+[DEBUG]   Imported: javax.annotation.* < plexus.core
+[DEBUG]   Imported: javax.annotation.security.* < plexus.core
+[DEBUG]   Imported: javax.inject.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.artifact < plexus.core
+[DEBUG]   Imported: org.apache.maven.classrealm < plexus.core
+[DEBUG]   Imported: org.apache.maven.cli < plexus.core
+[DEBUG]   Imported: org.apache.maven.configuration < plexus.core
+[DEBUG]   Imported: org.apache.maven.exception < plexus.core
+[DEBUG]   Imported: org.apache.maven.execution < plexus.core
+[DEBUG]   Imported: org.apache.maven.execution.scope < plexus.core
+[DEBUG]   Imported: org.apache.maven.graph < plexus.core
+[DEBUG]   Imported: org.apache.maven.lifecycle < plexus.core
+[DEBUG]   Imported: org.apache.maven.model < plexus.core
+[DEBUG]   Imported: org.apache.maven.monitor < plexus.core
+[DEBUG]   Imported: org.apache.maven.plugin < plexus.core
+[DEBUG]   Imported: org.apache.maven.profiles < plexus.core
+[DEBUG]   Imported: org.apache.maven.project < plexus.core
+[DEBUG]   Imported: org.apache.maven.reporting < plexus.core
+[DEBUG]   Imported: org.apache.maven.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.rtinfo < plexus.core
+[DEBUG]   Imported: org.apache.maven.settings < plexus.core
+[DEBUG]   Imported: org.apache.maven.toolchain < plexus.core
+[DEBUG]   Imported: org.apache.maven.usability < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authentication < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authorization < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.events < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.observers < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.proxy < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.resource < plexus.core
+[DEBUG]   Imported: org.codehaus.classworlds < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.* < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.classworlds < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.component < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.configuration < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.container < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.context < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.lifecycle < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.logging < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.personality < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.Xpp3Dom < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParser < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParserException < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlSerializer < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.* < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.artifact < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.collection < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.deployment < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.graph < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.impl < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.installation < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.internal.impl < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.metadata < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.repository < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.resolution < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.spi < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.transfer < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.util < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.version < plexus.core
+[DEBUG]   Imported: org.fusesource.jansi.* < plexus.core
+[DEBUG]   Imported: org.slf4j.* < plexus.core
+[DEBUG]   Imported: org.slf4j.event.* < plexus.core
+[DEBUG]   Imported: org.slf4j.helpers.* < plexus.core
+[DEBUG]   Imported: org.slf4j.spi.* < plexus.core
+[DEBUG] Populating class realm maven.api
+[DEBUG] Created adapter factory; available factories [file-lock, rwlock-local, semaphore-local, noop]; available name mappers [discriminating, file-gaecv, file-gav, file-hgaecv, file-hgav, file-static, gaecv, gav, static]
+[INFO] Error stacktraces are turned on.
+[DEBUG] Message scheme: color
+[DEBUG] Message styles: debug info warning error success failure strong mojo project
+[DEBUG] Reading global settings from C:\Users\USUARIO\Documents\apache-maven-3.9.13\conf\settings.xml
+[DEBUG] Reading user settings from C:\Users\USUARIO\.m2\settings.xml
+[DEBUG] Reading global toolchains from C:\Users\USUARIO\Documents\apache-maven-3.9.13\conf\toolchains.xml
+[DEBUG] Reading user toolchains from C:\Users\USUARIO\.m2\toolchains.xml
+[DEBUG] Using local repository at C:\Users\USUARIO\.m2\repository
+[DEBUG] Using manager EnhancedLocalRepositoryManager with priority 10.0 for C:\Users\USUARIO\.m2\repository
+[INFO] Scanning for projects...
+[DEBUG] Extension realms for project com.saucedemo:saucedemo-automation:jar:1.0-SNAPSHOT: (none)
+[DEBUG] Looking up lifecycle mappings for packaging jar from ClassRealm[plexus.core, parent: null]
+[DEBUG] === REACTOR BUILD PLAN ================================================
+[DEBUG] Project: com.saucedemo:saucedemo-automation:jar:1.0-SNAPSHOT
+[DEBUG] Tasks:   [clean, test]
+[DEBUG] Style:   Regular
+[DEBUG] =======================================================================
+[INFO] 
+[INFO] -----------------< com.saucedemo:saucedemo-automation >-----------------
+[INFO] Building saucedemo-automation 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Creating adapter using nameMapper 'gaecv' and factory 'rwlock-local'
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] === PROJECT BUILD PLAN ================================================
+[DEBUG] Project:       com.saucedemo:saucedemo-automation:1.0-SNAPSHOT
+[DEBUG] Dependencies (collect): []
+[DEBUG] Dependencies (resolve): [compile, test]
+[DEBUG] Repositories (dependencies): [central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] Repositories (plugins)     : [central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-clean-plugin:3.2.0:clean (default-clean)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <directory default-value="${project.build.directory}"/>
+  <excludeDefaultDirectories default-value="false">${maven.clean.excludeDefaultDirectories}</excludeDefaultDirectories>
+  <failOnError default-value="true">${maven.clean.failOnError}</failOnError>
+  <fast default-value="false">${maven.clean.fast}</fast>
+  <fastDir>${maven.clean.fastDir}</fastDir>
+  <fastMode default-value="background">${maven.clean.fastMode}</fastMode>
+  <followSymLinks default-value="false">${maven.clean.followSymLinks}</followSymLinks>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <reportDirectory default-value="${project.build.outputDirectory}"/>
+  <retryOnError default-value="true">${maven.clean.retryOnError}</retryOnError>
+  <session default-value="${session}"/>
+  <skip default-value="false">${maven.clean.skip}</skip>
+  <testOutputDirectory default-value="${project.build.testOutputDirectory}"/>
+  <verbose>${maven.clean.verbose}</verbose>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-resources-plugin:3.4.0:resources (default-resources)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <addDefaultExcludes default-value="true"/>
+  <buildFilters default-value="${project.build.filters}"/>
+  <encoding default-value="${project.build.sourceEncoding}"/>
+  <escapeWindowsPaths default-value="true"/>
+  <fileNameFiltering default-value="false"/>
+  <includeEmptyDirs default-value="false"/>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <overwrite default-value="false"/>
+  <project default-value="${project}"/>
+  <resources default-value="${project.resources}"/>
+  <session default-value="${session}"/>
+  <skip default-value="false">${maven.resources.skip}</skip>
+  <supportMultiLineFiltering default-value="false"/>
+  <useBuildFilters default-value="true"/>
+  <useDefaultDelimiters default-value="true"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-compiler-plugin:3.15.0:compile (default-compile)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <annotationProcessorPathsUseDepMgmt default-value="false"/>
+  <basedir default-value="${basedir}"/>
+  <buildDirectory default-value="${project.build.directory}"/>
+  <compilePath default-value="${project.compileClasspathElements}"/>
+  <compileSourceRoots default-value="${project.compileSourceRoots}"/>
+  <compilerId default-value="javac">${maven.compiler.compilerId}</compilerId>
+  <compilerReuseStrategy default-value="${reuseCreated}">${maven.compiler.compilerReuseStrategy}</compilerReuseStrategy>
+  <compilerVersion>${maven.compiler.compilerVersion}</compilerVersion>
+  <createMissingPackageInfoClass default-value="true">${maven.compiler.createMissingPackageInfoClass}</createMissingPackageInfoClass>
+  <debug default-value="true">${maven.compiler.debug}</debug>
+  <debugFileName default-value="javac"/>
+  <debuglevel>${maven.compiler.debuglevel}</debuglevel>
+  <enablePreview default-value="false">${maven.compiler.enablePreview}</enablePreview>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <executable>${maven.compiler.executable}</executable>
+  <failOnError default-value="true">${maven.compiler.failOnError}</failOnError>
+  <failOnWarning default-value="false">${maven.compiler.failOnWarning}</failOnWarning>
+  <fileExtensions default-value="class,jar"/>
+  <forceJavacCompilerUse default-value="false">${maven.compiler.forceJavacCompilerUse}</forceJavacCompilerUse>
+  <forceLegacyJavacApi default-value="false">${maven.compiler.forceLegacyJavacApi}</forceLegacyJavacApi>
+  <fork default-value="false">${maven.compiler.fork}</fork>
+  <generatedSourcesDirectory default-value="${project.build.directory}/generated-sources/annotations"/>
+  <implicit>${maven.compiler.implicit}</implicit>
+  <maxmem>${maven.compiler.maxmem}</maxmem>
+  <meminitial>${maven.compiler.meminitial}</meminitial>
+  <moduleVersion default-value="${project.version}">${maven.compiler.moduleVersion}</moduleVersion>
+  <mojoExecution default-value="${mojoExecution}"/>
+  <optimize default-value="false">${maven.compiler.optimize}</optimize>
+  <outputDirectory default-value="${project.build.outputDirectory}">${maven.compiler.outputDirectory}</outputDirectory>
+  <outputTimestamp default-value="${project.build.outputTimestamp}"/>
+  <parameters default-value="false">${maven.compiler.parameters}</parameters>
+  <proc>${maven.compiler.proc}</proc>
+  <project default-value="${project}"/>
+  <projectArtifact default-value="${project.artifact}"/>
+  <release>${maven.compiler.release}</release>
+  <session default-value="${session}"/>
+  <showCompilationChanges default-value="false">${maven.compiler.showCompilationChanges}</showCompilationChanges>
+  <showDeprecation default-value="false">${maven.compiler.showDeprecation}</showDeprecation>
+  <showWarnings default-value="true">${maven.compiler.showWarnings}</showWarnings>
+  <skipMain>${maven.main.skip}</skipMain>
+  <skipMultiThreadWarning default-value="false">${maven.compiler.skipMultiThreadWarning}</skipMultiThreadWarning>
+  <source default-value="1.8">${maven.compiler.source}</source>
+  <staleMillis default-value="0">${lastModGranularityMs}</staleMillis>
+  <target default-value="1.8">${maven.compiler.target}</target>
+  <useIncrementalCompilation default-value="true">${maven.compiler.useIncrementalCompilation}</useIncrementalCompilation>
+  <useModuleVersion default-value="true">${maven.compiler.useModuleVersion}</useModuleVersion>
+  <verbose default-value="false">${maven.compiler.verbose}</verbose>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-resources-plugin:3.4.0:testResources (default-testResources)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <addDefaultExcludes default-value="true"/>
+  <buildFilters default-value="${project.build.filters}"/>
+  <encoding default-value="${project.build.sourceEncoding}"/>
+  <escapeWindowsPaths default-value="true"/>
+  <fileNameFiltering default-value="false"/>
+  <includeEmptyDirs default-value="false"/>
+  <outputDirectory default-value="${project.build.testOutputDirectory}"/>
+  <overwrite default-value="false"/>
+  <project default-value="${project}"/>
+  <resources default-value="${project.testResources}"/>
+  <session default-value="${session}"/>
+  <skip default-value="false">${maven.test.skip}</skip>
+  <supportMultiLineFiltering default-value="false"/>
+  <useBuildFilters default-value="true"/>
+  <useDefaultDelimiters default-value="true"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-compiler-plugin:3.15.0:testCompile (default-testCompile)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <annotationProcessorPathsUseDepMgmt default-value="false"/>
+  <basedir default-value="${basedir}"/>
+  <buildDirectory default-value="${project.build.directory}"/>
+  <compileSourceRoots default-value="${project.testCompileSourceRoots}"/>
+  <compilerId default-value="javac">${maven.compiler.compilerId}</compilerId>
+  <compilerReuseStrategy default-value="${reuseCreated}">${maven.compiler.compilerReuseStrategy}</compilerReuseStrategy>
+  <compilerVersion>${maven.compiler.compilerVersion}</compilerVersion>
+  <createMissingPackageInfoClass default-value="true">${maven.compiler.createMissingPackageInfoClass}</createMissingPackageInfoClass>
+  <debug default-value="true">${maven.compiler.debug}</debug>
+  <debugFileName default-value="javac-test"/>
+  <debuglevel>${maven.compiler.debuglevel}</debuglevel>
+  <enablePreview default-value="false">${maven.compiler.enablePreview}</enablePreview>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <executable>${maven.compiler.executable}</executable>
+  <failOnError default-value="true">${maven.compiler.failOnError}</failOnError>
+  <failOnWarning default-value="false">${maven.compiler.failOnWarning}</failOnWarning>
+  <fileExtensions default-value="class,jar"/>
+  <forceJavacCompilerUse default-value="false">${maven.compiler.forceJavacCompilerUse}</forceJavacCompilerUse>
+  <forceLegacyJavacApi default-value="false">${maven.compiler.forceLegacyJavacApi}</forceLegacyJavacApi>
+  <fork default-value="false">${maven.compiler.fork}</fork>
+  <generatedTestSourcesDirectory default-value="${project.build.directory}/generated-test-sources/test-annotations"/>
+  <implicit>${maven.compiler.implicit}</implicit>
+  <maxmem>${maven.compiler.maxmem}</maxmem>
+  <meminitial>${maven.compiler.meminitial}</meminitial>
+  <mojoExecution default-value="${mojoExecution}"/>
+  <optimize default-value="false">${maven.compiler.optimize}</optimize>
+  <outputDirectory default-value="${project.build.testOutputDirectory}"/>
+  <outputTimestamp default-value="${project.build.outputTimestamp}"/>
+  <parameters default-value="false">${maven.compiler.parameters}</parameters>
+  <proc>${maven.compiler.proc}</proc>
+  <project default-value="${project}"/>
+  <release>${maven.compiler.release}</release>
+  <session default-value="${session}"/>
+  <showCompilationChanges default-value="false">${maven.compiler.showCompilationChanges}</showCompilationChanges>
+  <showDeprecation default-value="false">${maven.compiler.showDeprecation}</showDeprecation>
+  <showWarnings default-value="true">${maven.compiler.showWarnings}</showWarnings>
+  <skip>${maven.test.skip}</skip>
+  <skipMultiThreadWarning default-value="false">${maven.compiler.skipMultiThreadWarning}</skipMultiThreadWarning>
+  <source default-value="1.8">${maven.compiler.source}</source>
+  <staleMillis default-value="0">${lastModGranularityMs}</staleMillis>
+  <target default-value="1.8">${maven.compiler.target}</target>
+  <testPath default-value="${project.testClasspathElements}"/>
+  <testRelease>${maven.compiler.testRelease}</testRelease>
+  <testSource>${maven.compiler.testSource}</testSource>
+  <testTarget>${maven.compiler.testTarget}</testTarget>
+  <useIncrementalCompilation default-value="true">${maven.compiler.useIncrementalCompilation}</useIncrementalCompilation>
+  <useModulePath default-value="true"/>
+  <verbose default-value="false">${maven.compiler.verbose}</verbose>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-surefire-plugin:3.1.2:test (default-test)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <additionalClasspathElements>${maven.test.additionalClasspath}</additionalClasspathElements>
+  <argLine>${argLine}</argLine>
+  <basedir default-value="${basedir}"/>
+  <childDelegation default-value="false">${childDelegation}</childDelegation>
+  <classesDirectory default-value="${project.build.outputDirectory}"/>
+  <classpathDependencyExcludes>${maven.test.dependency.excludes}</classpathDependencyExcludes>
+  <debugForkedProcess>${maven.surefire.debug}</debugForkedProcess>
+  <dependenciesToScan>${dependenciesToScan}</dependenciesToScan>
+  <disableXmlReport default-value="false">${disableXmlReport}</disableXmlReport>
+  <enableAssertions default-value="true">${enableAssertions}</enableAssertions>
+  <enableProcessChecker>${surefire.enableProcessChecker}</enableProcessChecker>
+  <encoding default-value="${project.reporting.outputEncoding}">${surefire.encoding}</encoding>
+  <excludeJUnit5Engines>${surefire.excludeJUnit5Engines}</excludeJUnit5Engines>
+  <excludedEnvironmentVariables>${surefire.excludedEnvironmentVariables}</excludedEnvironmentVariables>
+  <excludedGroups>${excludedGroups}</excludedGroups>
+  <excludes>${surefire.excludes}</excludes>
+  <excludesFile>${surefire.excludesFile}</excludesFile>
+  <failIfNoSpecifiedTests default-value="true">${surefire.failIfNoSpecifiedTests}</failIfNoSpecifiedTests>
+  <failIfNoTests default-value="false">${failIfNoTests}</failIfNoTests>
+  <failOnFlakeCount default-value="0">${surefire.failOnFlakeCount}</failOnFlakeCount>
+  <forkCount default-value="1">${forkCount}</forkCount>
+  <forkNode>${surefire.forkNode}</forkNode>
+  <forkedProcessExitTimeoutInSeconds default-value="30">${surefire.exitTimeout}</forkedProcessExitTimeoutInSeconds>
+  <forkedProcessTimeoutInSeconds>${surefire.timeout}</forkedProcessTimeoutInSeconds>
+  <groups>${groups}</groups>
+  <includeJUnit5Engines>${surefire.includeJUnit5Engines}</includeJUnit5Engines>
+  <includes>
+    <include>**/runners/*Test.java</include>${surefire.includes}</includes>
+  <includesFile>${surefire.includesFile}</includesFile>
+  <junitArtifactName default-value="junit:junit">${junitArtifactName}</junitArtifactName>
+  <jvm>${jvm}</jvm>
+  <objectFactory>${objectFactory}</objectFactory>
+  <parallel>${parallel}</parallel>
+  <parallelMavenExecution default-value="${session.parallel}"/>
+  <parallelOptimized default-value="true">${parallelOptimized}</parallelOptimized>
+  <parallelTestsTimeoutForcedInSeconds>${surefire.parallel.forcedTimeout}</parallelTestsTimeoutForcedInSeconds>
+  <parallelTestsTimeoutInSeconds>${surefire.parallel.timeout}</parallelTestsTimeoutInSeconds>
+  <perCoreThreadCount default-value="true">${perCoreThreadCount}</perCoreThreadCount>
+  <pluginArtifactMap>${plugin.artifactMap}</pluginArtifactMap>
+  <pluginDescriptor default-value="${plugin}"/>
+  <printSummary default-value="true">${surefire.printSummary}</printSummary>
+  <project default-value="${project}"/>
+  <projectArtifactMap>${project.artifactMap}</projectArtifactMap>
+  <projectBuildDirectory default-value="${project.build.directory}"/>
+  <redirectTestOutputToFile default-value="false">${maven.test.redirectTestOutputToFile}</redirectTestOutputToFile>
+  <reportFormat default-value="brief">${surefire.reportFormat}</reportFormat>
+  <reportNameSuffix default-value="">${surefire.reportNameSuffix}</reportNameSuffix>
+  <reportsDirectory default-value="${project.build.directory}/surefire-reports"/>
+  <rerunFailingTestsCount default-value="0">${surefire.rerunFailingTestsCount}</rerunFailingTestsCount>
+  <reuseForks default-value="true">${reuseForks}</reuseForks>
+  <runOrder default-value="filesystem">${surefire.runOrder}</runOrder>
+  <runOrderRandomSeed>${surefire.runOrder.random.seed}</runOrderRandomSeed>
+  <session default-value="${session}"/>
+  <shutdown default-value="exit">${surefire.shutdown}</shutdown>
+  <skip default-value="false">${maven.test.skip}</skip>
+  <skipAfterFailureCount default-value="0">${surefire.skipAfterFailureCount}</skipAfterFailureCount>
+  <skipExec>${maven.test.skip.exec}</skipExec>
+  <skipTests default-value="false">${skipTests}</skipTests>
+  <suiteXmlFiles>${surefire.suiteXmlFiles}</suiteXmlFiles>
+  <systemPropertiesFile>${surefire.systemPropertiesFile}</systemPropertiesFile>
+  <tempDir default-value="surefire">${tempDir}</tempDir>
+  <test>${test}</test>
+  <testClassesDirectory default-value="${project.build.testOutputDirectory}"/>
+  <testFailureIgnore default-value="false">${maven.test.failure.ignore}</testFailureIgnore>
+  <testNGArtifactName default-value="org.testng:testng">${testNGArtifactName}</testNGArtifactName>
+  <testSourceDirectory default-value="${project.build.testSourceDirectory}"/>
+  <threadCount>${threadCount}</threadCount>
+  <threadCountClasses default-value="0">${threadCountClasses}</threadCountClasses>
+  <threadCountMethods default-value="0">${threadCountMethods}</threadCountMethods>
+  <threadCountSuites default-value="0">${threadCountSuites}</threadCountSuites>
+  <trimStackTrace default-value="false">${trimStackTrace}</trimStackTrace>
+  <useFile default-value="true">${surefire.useFile}</useFile>
+  <useManifestOnlyJar default-value="true">${surefire.useManifestOnlyJar}</useManifestOnlyJar>
+  <useModulePath default-value="true">${surefire.useModulePath}</useModulePath>
+  <useSystemClassLoader default-value="true">${surefire.useSystemClassLoader}</useSystemClassLoader>
+  <useUnlimitedThreads default-value="false">${useUnlimitedThreads}</useUnlimitedThreads>
+  <workingDirectory>${basedir}</workingDirectory>
+</configuration>
+[DEBUG] =======================================================================
+[DEBUG] Could not find metadata io.cucumber:messages/maven-metadata.xml in local (C:\Users\USUARIO\.m2\repository)
+[DEBUG] Skipped remote request for io.cucumber:messages/maven-metadata.xml, locally cached metadata up-to-date
+[DEBUG] Could not find metadata io.cucumber:messages/maven-metadata.xml in local (C:\Users\USUARIO\.m2\repository)
+[DEBUG] Skipped remote request for io.cucumber:messages/maven-metadata.xml, locally cached metadata up-to-date
+[DEBUG] Could not find metadata io.cucumber:messages/maven-metadata.xml in local (C:\Users\USUARIO\.m2\repository)
+[DEBUG] Skipped remote request for io.cucumber:messages/maven-metadata.xml, locally cached metadata up-to-date
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for apache.snapshots (http://repository.apache.org/snapshots).
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for ossrh-snapshots (http://oss.sonatype.org/content/repositories/snapshots).
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for releases.java.net (http://maven.java.net/content/repositories/releases/).
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for shapshots.java.net (http://maven.java.net/content/repositories/snapshots/).
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for jvnet-nexus-staging (http://maven.java.net/content/repositories/staging/).
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for netbeans (http://bits.netbeans.org/nexus/content/groups/netbeans).
+[DEBUG] Dependency collection stats {ConflictMarker.analyzeTime=14025200, ConflictMarker.markTime=2962200, ConflictMarker.nodeCount=975, ConflictIdSorter.graphTime=8576200, ConflictIdSorter.topsortTime=3739000, ConflictIdSorter.conflictIdCount=212, ConflictIdSorter.conflictIdCycleCount=1, ConflictResolver.totalTime=94287200, ConflictResolver.conflictItemCount=552, DfDependencyCollector.collectTime=6493356600, DfDependencyCollector.transformTime=132026200}
+[DEBUG] com.saucedemo:saucedemo-automation:jar:1.0-SNAPSHOT
+[DEBUG]    net.serenity-bdd:serenity-core:jar:4.1.0:test
+[DEBUG]       net.serenity-bdd:serenity-model:jar:4.1.0:test
+[DEBUG]          org.apache.commons:commons-text:jar:1.11.0:test
+[DEBUG]          commons-net:commons-net:jar:3.10.0:test
+[DEBUG]          com.google.guava:guava:jar:32.1.3-jre:test
+[DEBUG]             com.google.guava:failureaccess:jar:1.0.1:test
+[DEBUG]             com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava:test
+[DEBUG]             com.google.code.findbugs:jsr305:jar:3.0.2:test
+[DEBUG]             org.checkerframework:checker-qual:jar:3.37.0:test
+[DEBUG]             com.google.errorprone:error_prone_annotations:jar:2.21.1:test
+[DEBUG]             com.google.j2objc:j2objc-annotations:jar:2.8:test
+[DEBUG]          org.jsoup:jsoup:jar:1.15.4:test
+[DEBUG]          com.thoughtworks.xstream:xstream:jar:1.4.20:test
+[DEBUG]             io.github.x-stream:mxparser:jar:1.2.2:test
+[DEBUG]                xmlpull:xmlpull:jar:1.1.3.1:test
+[DEBUG]          com.typesafe:config:jar:1.4.3:test
+[DEBUG]          org.imgscalr:imgscalr-lib:jar:4.2:test
+[DEBUG]          org.awaitility:awaitility:jar:4.2.0:test
+[DEBUG]          org.freemarker:freemarker:jar:2.3.32:test
+[DEBUG]          io.github.classgraph:classgraph:jar:4.8.157:test
+[DEBUG]          com.github.ben-manes.caffeine:caffeine:jar:2.9.2:test
+[DEBUG]          org.ehcache:ehcache:jar:3.10.8:test
+[DEBUG]             javax.cache:cache-api:jar:1.1.0:test
+[DEBUG]          net.sourceforge.jexcelapi:jxl:jar:2.6.12:test
+[DEBUG]          net.bytebuddy:byte-buddy:jar:1.14.10:test
+[DEBUG]          net.bytebuddy:byte-buddy-agent:jar:1.14.10:test
+[DEBUG]          org.objenesis:objenesis:jar:3.3:test
+[DEBUG]          com.vladsch.flexmark:flexmark-all:jar:0.64.8:test
+[DEBUG]             com.vladsch.flexmark:flexmark:jar:0.64.8:test
+[DEBUG]             com.vladsch.flexmark:flexmark-ext-abbreviation:jar:0.64.8:test
+[DEBUG]             com.vladsch.flexmark:flexmark-ext-admonition:jar:0.64.8:test
+[DEBUG]             com.vladsch.flexmark:flexmark-ext-anchorlink:jar:0.64.8:test
+[DEBUG]             com.vladsch.flexmark:flexmark-ext-aside:jar:0.64.8:test
+[DEBUG]             com.vladsch.flexmark:flexmark-ext-attributes:jar:0.64.8:test
+[DEBUG]             com.vladsch.flexmark:flexmark-ext-autolink:jar:0.64.8:test
+[DEBUG]                org.nibor.autolink:autolink:jar:0.6.0:test
+[DEBUG]             com.vladsch.flexmark:flexmark-ext-definition:jar:0.64.8:test
+[DEBUG]             com.vladsch.flexmark:flexmark-ext-emoji:jar:0.64.8:test
+[DEBUG]             com.vladsch.flexmark:flexmark-ext-enumerated-reference:jar:0.64.8:test
+[DEBUG]             com.vladsch.flexmark:flexmark-ext-escaped-character:jar:0.64.8:test
+[DEBUG]             com.vladsch.flexmark:flexmark-ext-footnotes:jar:0.64.8:test
+[DEBUG]             com.vladsch.flexmark:flexmark-ext-gfm-issues:jar:0.64.8:test
+[DEBUG]             com.vladsch.flexmark:flexmark-ext-gfm-strikethrough:jar:0.64.8:test
+[DEBUG]             com.vladsch.flexmark:flexmark-ext-gfm-tasklist:jar:0.64.8:test
+[DEBUG]             com.vladsch.flexmark:flexmark-ext-gfm-users:jar:0.64.8:test
+[DEBUG]             com.vladsch.flexmark:flexmark-ext-gitlab:jar:0.64.8:test
+[DEBUG]             com.vladsch.flexmark:flexmark-ext-jekyll-front-matter:jar:0.64.8:test
+[DEBUG]             com.vladsch.flexmark:flexmark-ext-jekyll-tag:jar:0.64.8:test
+[DEBUG]             com.vladsch.flexmark:flexmark-ext-media-tags:jar:0.64.8:test
+[DEBUG]             com.vladsch.flexmark:flexmark-ext-macros:jar:0.64.8:test
+[DEBUG]             com.vladsch.flexmark:flexmark-ext-ins:jar:0.64.8:test
+[DEBUG]             com.vladsch.flexmark:flexmark-ext-xwiki-macros:jar:0.64.8:test
+[DEBUG]             com.vladsch.flexmark:flexmark-ext-superscript:jar:0.64.8:test
+[DEBUG]             com.vladsch.flexmark:flexmark-ext-toc:jar:0.64.8:test
+[DEBUG]             com.vladsch.flexmark:flexmark-ext-typographic:jar:0.64.8:test
+[DEBUG]             com.vladsch.flexmark:flexmark-ext-wikilink:jar:0.64.8:test
+[DEBUG]             com.vladsch.flexmark:flexmark-ext-yaml-front-matter:jar:0.64.8:test
+[DEBUG]             com.vladsch.flexmark:flexmark-ext-youtube-embedded:jar:0.64.8:test
+[DEBUG]             com.vladsch.flexmark:flexmark-html2md-converter:jar:0.64.8:test
+[DEBUG]             com.vladsch.flexmark:flexmark-jira-converter:jar:0.64.8:test
+[DEBUG]             com.vladsch.flexmark:flexmark-pdf-converter:jar:0.64.8:test
+[DEBUG]                com.openhtmltopdf:openhtmltopdf-core:jar:1.0.10:test
+[DEBUG]                com.openhtmltopdf:openhtmltopdf-pdfbox:jar:1.0.10:test
+[DEBUG]                   org.apache.pdfbox:pdfbox:jar:2.0.24:test
+[DEBUG]                      org.apache.pdfbox:fontbox:jar:2.0.24:test
+[DEBUG]                   org.apache.pdfbox:xmpbox:jar:2.0.24:test
+[DEBUG]                   de.rototor.pdfbox:graphics2d:jar:0.32:test
+[DEBUG]                com.openhtmltopdf:openhtmltopdf-rtl-support:jar:1.0.10:test
+[DEBUG]             com.vladsch.flexmark:flexmark-profile-pegdown:jar:0.64.8:test
+[DEBUG]             com.vladsch.flexmark:flexmark-util-ast:jar:0.64.8:test
+[DEBUG]                org.jetbrains:annotations:jar:24.0.1:test
+[DEBUG]             com.vladsch.flexmark:flexmark-util-builder:jar:0.64.8:test
+[DEBUG]             com.vladsch.flexmark:flexmark-util-collection:jar:0.64.8:test
+[DEBUG]             com.vladsch.flexmark:flexmark-util-data:jar:0.64.8:test
+[DEBUG]             com.vladsch.flexmark:flexmark-util-dependency:jar:0.64.8:test
+[DEBUG]             com.vladsch.flexmark:flexmark-util-format:jar:0.64.8:test
+[DEBUG]             com.vladsch.flexmark:flexmark-util-html:jar:0.64.8:test
+[DEBUG]             com.vladsch.flexmark:flexmark-util-misc:jar:0.64.8:test
+[DEBUG]             com.vladsch.flexmark:flexmark-util-options:jar:0.64.8:test
+[DEBUG]             com.vladsch.flexmark:flexmark-util-sequence:jar:0.64.8:test
+[DEBUG]             com.vladsch.flexmark:flexmark-util-visitor:jar:0.64.8:test
+[DEBUG]             com.vladsch.flexmark:flexmark-youtrack-converter:jar:0.64.8:test
+[DEBUG]          com.vladsch.flexmark:flexmark-ext-resizable-image:jar:0.64.8:test
+[DEBUG]          com.vladsch.flexmark:flexmark-ext-tables:jar:0.64.8:test
+[DEBUG]             com.vladsch.flexmark:flexmark-util:jar:0.64.8:test
+[DEBUG]       net.serenity-bdd:serenity-reports:jar:4.1.0:test
+[DEBUG]          net.serenity-bdd:serenity-stats:jar:4.1.0:test
+[DEBUG]             org.jetbrains.kotlin:kotlin-stdlib:jar:1.9.0:test
+[DEBUG]                org.jetbrains.kotlin:kotlin-stdlib-common:jar:1.9.0:test
+[DEBUG]          net.serenity-bdd:serenity-reports-configuration:jar:4.1.0:test
+[DEBUG]          com.ibm.icu:icu4j:jar:72.1:test
+[DEBUG]          es.nitaur.markdown:txtmark:jar:0.16:test
+[DEBUG]       net.serenity-bdd:serenity-report-resources:jar:4.1.0:test
+[DEBUG]       com.google.code.gson:gson:jar:2.10.1:test
+[DEBUG]       com.fasterxml.jackson.core:jackson-core:jar:2.16.0:test
+[DEBUG]       com.fasterxml.jackson.core:jackson-databind:jar:2.16.0:test
+[DEBUG]          com.fasterxml.jackson.core:jackson-annotations:jar:2.16.0:test
+[DEBUG]       commons-codec:commons-codec:jar:1.16.0:test
+[DEBUG]       commons-io:commons-io:jar:2.15.1:test
+[DEBUG]       org.apache.httpcomponents:httpclient:jar:4.5.13:test
+[DEBUG]          org.apache.httpcomponents:httpcore:jar:4.4.13:test
+[DEBUG]          commons-logging:commons-logging:jar:1.2:test
+[DEBUG]       org.seleniumhq.selenium:selenium-api:jar:4.16.1:test
+[DEBUG]       org.seleniumhq.selenium:selenium-support:jar:4.16.1:test
+[DEBUG]          com.google.auto.service:auto-service-annotations:jar:1.1.1:test
+[DEBUG]          org.seleniumhq.selenium:selenium-json:jar:4.16.1:test
+[DEBUG]       org.seleniumhq.selenium:selenium-chrome-driver:jar:4.16.1:test
+[DEBUG]          org.seleniumhq.selenium:selenium-chromium-driver:jar:4.16.1:test
+[DEBUG]          org.seleniumhq.selenium:selenium-manager:jar:4.16.1:test
+[DEBUG]       org.seleniumhq.selenium:selenium-firefox-driver:jar:4.16.1:test
+[DEBUG]          org.seleniumhq.selenium:selenium-http:jar:4.16.1:test
+[DEBUG]             dev.failsafe:failsafe:jar:3.3.2:test
+[DEBUG]       org.seleniumhq.selenium:selenium-edge-driver:jar:4.16.1:test
+[DEBUG]       org.seleniumhq.selenium:selenium-ie-driver:jar:4.16.1:test
+[DEBUG]       org.htmlunit:htmlunit:jar:3.9.0:test
+[DEBUG]          org.apache.httpcomponents:httpmime:jar:4.5.14:test
+[DEBUG]          org.htmlunit:htmlunit-core-js:jar:3.9.0:test
+[DEBUG]          org.htmlunit:neko-htmlunit:jar:3.9.0:test
+[DEBUG]          org.htmlunit:htmlunit-cssparser:jar:3.9.0:test
+[DEBUG]          org.htmlunit:htmlunit-xpath:jar:3.9.0:test
+[DEBUG]          org.htmlunit:htmlunit-csp:jar:3.9.0:test
+[DEBUG]          org.brotli:dec:jar:0.1.2:test
+[DEBUG]          org.eclipse.jetty.websocket:websocket-client:jar:9.4.53.v20231009:test
+[DEBUG]             org.eclipse.jetty:jetty-client:jar:9.4.53.v20231009:test
+[DEBUG]                org.eclipse.jetty:jetty-http:jar:9.4.53.v20231009:test
+[DEBUG]             org.eclipse.jetty:jetty-util:jar:9.4.53.v20231009:test
+[DEBUG]             org.eclipse.jetty:jetty-io:jar:9.4.53.v20231009:test
+[DEBUG]             org.eclipse.jetty.websocket:websocket-common:jar:9.4.53.v20231009:test
+[DEBUG]                org.eclipse.jetty.websocket:websocket-api:jar:9.4.53.v20231009:test
+[DEBUG]       org.seleniumhq.selenium:htmlunit3-driver:jar:4.16.0:test
+[DEBUG]       io.appium:java-client:jar:9.0.0:test
+[DEBUG]       org.apache.groovy:groovy:jar:4.0.13:test
+[DEBUG]       net.sf.opencsv:opencsv:jar:2.1:test
+[DEBUG]       org.apache.commons:commons-lang3:jar:3.14.0:test
+[DEBUG]       org.apache.commons:commons-compress:jar:1.25.0:test
+[DEBUG]       org.fluentlenium:fluentlenium-core:jar:0.10.2:test
+[DEBUG]       com.jhlabs:filters:jar:2.0.235:test
+[DEBUG]       com.paulhammant:ngwebdriver:jar:1.1.6:test
+[DEBUG]       joda-time:joda-time:jar:2.12.5:test
+[DEBUG]       org.hamcrest:hamcrest:jar:2.2:test
+[DEBUG]       com.google.jimfs:jimfs:jar:1.3.0:test
+[DEBUG]       org.mockito:mockito-core:jar:3.3.3:test
+[DEBUG]       javax.xml.bind:jaxb-api:jar:2.3.1:test
+[DEBUG]          javax.activation:javax.activation-api:jar:1.2.0:test
+[DEBUG]       com.sun.xml.bind:jaxb-core:jar:2.3.0.1:test
+[DEBUG]       com.sun.xml.bind:jaxb-impl:jar:2.3.3:test
+[DEBUG]          jakarta.xml.bind:jakarta.xml.bind-api:jar:2.3.3:test
+[DEBUG]          com.sun.activation:jakarta.activation:jar:1.2.2:test
+[DEBUG]       javax.activation:activation:jar:1.1.1:test
+[DEBUG]    net.serenity-bdd:serenity-cucumber:jar:4.1.0:test
+[DEBUG]       net.serenity-bdd:serenity-screenplay-webdriver:jar:4.1.0:test
+[DEBUG]       io.cucumber:cucumber-core:jar:7.15.0:test
+[DEBUG]          io.cucumber:cucumber-gherkin:jar:7.15.0:test
+[DEBUG]          io.cucumber:cucumber-gherkin-messages:jar:7.15.0:test
+[DEBUG]             io.cucumber:gherkin:jar:26.2.0:test
+[DEBUG]          io.cucumber:messages:jar:22.0.0:test
+[DEBUG]          io.cucumber:tag-expressions:jar:6.0.0:test
+[DEBUG]          io.cucumber:cucumber-expressions:jar:17.0.1:test
+[DEBUG]          io.cucumber:datatable:jar:7.15.0:test
+[DEBUG]          io.cucumber:cucumber-plugin:jar:7.15.0:test
+[DEBUG]          io.cucumber:docstring:jar:7.15.0:test
+[DEBUG]          io.cucumber:html-formatter:jar:20.4.0:test
+[DEBUG]          io.cucumber:junit-xml-formatter:jar:0.2.0:test
+[DEBUG]          io.cucumber:ci-environment:jar:10.0.0:test
+[DEBUG]       io.cucumber:cucumber-java:jar:7.15.0:test
+[DEBUG]       io.cucumber:cucumber-junit:jar:7.15.0:test
+[DEBUG]       org.apache.commons:commons-csv:jar:1.5:test
+[DEBUG]    net.serenity-bdd:serenity-screenplay:jar:4.1.0:test
+[DEBUG]    org.seleniumhq.selenium:selenium-java:jar:4.15.0:test
+[DEBUG]       org.seleniumhq.selenium:selenium-devtools-v117:jar:4.15.0:test
+[DEBUG]       org.seleniumhq.selenium:selenium-devtools-v118:jar:4.15.0:test
+[DEBUG]       org.seleniumhq.selenium:selenium-devtools-v119:jar:4.15.0:test
+[DEBUG]       org.seleniumhq.selenium:selenium-devtools-v85:jar:4.15.0:test
+[DEBUG]       org.seleniumhq.selenium:selenium-remote-driver:jar:4.15.0:test
+[DEBUG]          io.opentelemetry:opentelemetry-api:jar:1.28.0:test
+[DEBUG]          io.opentelemetry:opentelemetry-context:jar:1.28.0:test
+[DEBUG]          io.opentelemetry:opentelemetry-exporter-logging:jar:1.28.0:test
+[DEBUG]             io.opentelemetry:opentelemetry-sdk-metrics:jar:1.28.0:test
+[DEBUG]                io.opentelemetry:opentelemetry-extension-incubator:jar:1.28.0-alpha:test
+[DEBUG]             io.opentelemetry:opentelemetry-sdk-logs:jar:1.28.0:test
+[DEBUG]          io.opentelemetry:opentelemetry-sdk-common:jar:1.28.0:test
+[DEBUG]          io.opentelemetry:opentelemetry-sdk-extension-autoconfigure-spi:jar:1.28.0:test
+[DEBUG]          io.opentelemetry:opentelemetry-sdk-extension-autoconfigure:jar:1.28.0:test
+[DEBUG]             io.opentelemetry:opentelemetry-api-events:jar:1.28.0-alpha:test
+[DEBUG]          io.opentelemetry:opentelemetry-sdk-trace:jar:1.28.0:test
+[DEBUG]          io.opentelemetry:opentelemetry-sdk:jar:1.28.0:test
+[DEBUG]          io.opentelemetry:opentelemetry-semconv:jar:1.28.0-alpha:test
+[DEBUG]          org.seleniumhq.selenium:selenium-os:jar:4.15.0:test
+[DEBUG]             org.apache.commons:commons-exec:jar:1.3:test
+[DEBUG]       org.seleniumhq.selenium:selenium-safari-driver:jar:4.15.0:test
+[DEBUG]    org.junit.jupiter:junit-jupiter-api:jar:5.10.0:test
+[DEBUG]       org.opentest4j:opentest4j:jar:1.3.0:test
+[DEBUG]       org.junit.platform:junit-platform-commons:jar:1.10.0:test
+[DEBUG]       org.apiguardian:apiguardian-api:jar:1.1.2:test
+[DEBUG]    org.junit.jupiter:junit-jupiter-engine:jar:5.10.0:test
+[DEBUG]       org.junit.platform:junit-platform-engine:jar:1.10.0:test
+[DEBUG]    org.junit.platform:junit-platform-suite:jar:1.10.0:test
+[DEBUG]       org.junit.platform:junit-platform-suite-api:jar:1.10.0:test
+[DEBUG]       org.junit.platform:junit-platform-suite-engine:jar:1.10.0:test
+[DEBUG]          org.junit.platform:junit-platform-suite-commons:jar:1.10.0:test
+[DEBUG]             org.junit.platform:junit-platform-launcher:jar:1.10.0:test
+[DEBUG]    org.slf4j:slf4j-simple:jar:2.0.9:test
+[DEBUG]       org.slf4j:slf4j-api:jar:2.0.9:test
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ saucedemo-automation ---
+[DEBUG] Dependency collection stats {ConflictMarker.analyzeTime=197700, ConflictMarker.markTime=92600, ConflictMarker.nodeCount=3, ConflictIdSorter.graphTime=108200, ConflictIdSorter.topsortTime=35700, ConflictIdSorter.conflictIdCount=3, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=618700, ConflictResolver.conflictItemCount=3, DfDependencyCollector.collectTime=79868600, DfDependencyCollector.transformTime=1108100}
+[DEBUG] org.apache.maven.plugins:maven-clean-plugin:jar:3.2.0
+[DEBUG]    org.apache.maven.shared:maven-shared-utils:jar:3.3.4:compile
+[DEBUG]       commons-io:commons-io:jar:2.6:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-clean-plugin:3.2.0
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-clean-plugin:3.2.0
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-clean-plugin:3.2.0
+[DEBUG]   Included: org.apache.maven.plugins:maven-clean-plugin:jar:3.2.0
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-utils:jar:3.3.4
+[DEBUG]   Included: commons-io:commons-io:jar:2.6
+[DEBUG] Loading mojo org.apache.maven.plugins:maven-clean-plugin:3.2.0:clean from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-clean-plugin:3.2.0, parent: jdk.internal.loader.ClassLoaders$AppClassLoader@2a139a55]
+[DEBUG] Configuring mojo execution 'org.apache.maven.plugins:maven-clean-plugin:3.2.0:clean:default-clean' with basic configurator -->
+[DEBUG]   (f) directory = C:\Users\USUARIO\saucedemo-automation\target
+[DEBUG]   (f) excludeDefaultDirectories = false
+[DEBUG]   (f) failOnError = true
+[DEBUG]   (f) fast = false
+[DEBUG]   (f) fastMode = background
+[DEBUG]   (f) followSymLinks = false
+[DEBUG]   (f) outputDirectory = C:\Users\USUARIO\saucedemo-automation\target\classes
+[DEBUG]   (f) reportDirectory = C:\Users\USUARIO\saucedemo-automation\target\classes
+[DEBUG]   (f) retryOnError = true
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@1b410308
+[DEBUG]   (f) skip = false
+[DEBUG]   (f) testOutputDirectory = C:\Users\USUARIO\saucedemo-automation\target\test-classes
+[DEBUG] -- end configuration --
+[INFO] Deleting C:\Users\USUARIO\saucedemo-automation\target
+[INFO] Deleting file C:\Users\USUARIO\saucedemo-automation\target\test-classes\serenity.properties
+[INFO] Deleting file C:\Users\USUARIO\saucedemo-automation\target\test-classes\features\saucedemo.feature
+[INFO] Deleting directory C:\Users\USUARIO\saucedemo-automation\target\test-classes\features
+[INFO] Deleting file C:\Users\USUARIO\saucedemo-automation\target\test-classes\config.properties
+[INFO] Deleting directory C:\Users\USUARIO\saucedemo-automation\target\test-classes
+[INFO] Deleting file C:\Users\USUARIO\saucedemo-automation\target\maven-status\maven-compiler-plugin\testCompile\default-testCompile\inputFiles.lst
+[INFO] Deleting file C:\Users\USUARIO\saucedemo-automation\target\maven-status\maven-compiler-plugin\testCompile\default-testCompile\createdFiles.lst
+[INFO] Deleting directory C:\Users\USUARIO\saucedemo-automation\target\maven-status\maven-compiler-plugin\testCompile\default-testCompile
+[INFO] Deleting directory C:\Users\USUARIO\saucedemo-automation\target\maven-status\maven-compiler-plugin\testCompile
+[INFO] Deleting file C:\Users\USUARIO\saucedemo-automation\target\maven-status\maven-compiler-plugin\compile\default-compile\inputFiles.lst
+[INFO] Deleting directory C:\Users\USUARIO\saucedemo-automation\target\maven-status\maven-compiler-plugin\compile\default-compile
+[INFO] Deleting directory C:\Users\USUARIO\saucedemo-automation\target\maven-status\maven-compiler-plugin\compile
+[INFO] Deleting directory C:\Users\USUARIO\saucedemo-automation\target\maven-status\maven-compiler-plugin
+[INFO] Deleting directory C:\Users\USUARIO\saucedemo-automation\target\maven-status
+[INFO] Deleting directory C:\Users\USUARIO\saucedemo-automation\target\generated-test-sources\test-annotations
+[INFO] Deleting directory C:\Users\USUARIO\saucedemo-automation\target\generated-test-sources
+[INFO] Deleting directory C:\Users\USUARIO\saucedemo-automation\target\generated-sources\annotations
+[INFO] Deleting directory C:\Users\USUARIO\saucedemo-automation\target\generated-sources
+[INFO] Deleting directory C:\Users\USUARIO\saucedemo-automation\target
+[DEBUG] Skipping non-existing directory C:\Users\USUARIO\saucedemo-automation\target\classes
+[DEBUG] Skipping non-existing directory C:\Users\USUARIO\saucedemo-automation\target\test-classes
+[DEBUG] Skipping non-existing directory C:\Users\USUARIO\saucedemo-automation\target\classes
+[INFO] 
+[INFO] --- resources:3.4.0:resources (default-resources) @ saucedemo-automation ---
+[DEBUG] Dependency collection stats {ConflictMarker.analyzeTime=221200, ConflictMarker.markTime=159300, ConflictMarker.nodeCount=13, ConflictIdSorter.graphTime=88900, ConflictIdSorter.topsortTime=48600, ConflictIdSorter.conflictIdCount=10, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=5654200, ConflictResolver.conflictItemCount=13, DfDependencyCollector.collectTime=521662000, DfDependencyCollector.transformTime=6243400}
+[DEBUG] org.apache.maven.plugins:maven-resources-plugin:jar:3.4.0
+[DEBUG]    org.apache.maven.shared:maven-filtering:jar:3.4.0:compile
+[DEBUG]       org.slf4j:slf4j-api:jar:1.7.36:compile
+[DEBUG]       org.sonatype.plexus:plexus-build-api:jar:0.0.7:compile
+[DEBUG]       org.codehaus.plexus:plexus-utils:jar:4.0.2:compile (version managed from default)
+[DEBUG]       org.codehaus.plexus:plexus-xml:jar:3.0.1:compile (version managed from default)
+[DEBUG]       org.codehaus.plexus:plexus-interpolation:jar:1.27:compile
+[DEBUG]       commons-io:commons-io:jar:2.16.1:compile
+[DEBUG]    org.apache.commons:commons-lang3:jar:3.20.0:compile
+[DEBUG]    javax.inject:javax.inject:jar:1:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-resources-plugin:3.4.0
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-resources-plugin:3.4.0
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-resources-plugin:3.4.0
+[DEBUG]   Included: org.apache.maven.plugins:maven-resources-plugin:jar:3.4.0
+[DEBUG]   Included: org.apache.maven.shared:maven-filtering:jar:3.4.0
+[DEBUG]   Included: org.sonatype.plexus:plexus-build-api:jar:0.0.7
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:4.0.2
+[DEBUG]   Included: org.codehaus.plexus:plexus-xml:jar:3.0.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.27
+[DEBUG]   Included: commons-io:commons-io:jar:2.16.1
+[DEBUG]   Included: org.apache.commons:commons-lang3:jar:3.20.0
+[DEBUG] Loading mojo org.apache.maven.plugins:maven-resources-plugin:3.4.0:resources from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-resources-plugin:3.4.0, parent: jdk.internal.loader.ClassLoaders$AppClassLoader@2a139a55]
+[DEBUG] Configuring mojo execution 'org.apache.maven.plugins:maven-resources-plugin:3.4.0:resources:default-resources' with basic configurator -->
+[DEBUG]   (f) addDefaultExcludes = true
+[DEBUG]   (f) buildFilters = []
+[DEBUG]   (f) encoding = UTF-8
+[DEBUG]   (f) escapeWindowsPaths = true
+[DEBUG]   (f) fileNameFiltering = false
+[DEBUG]   (s) includeEmptyDirs = false
+[DEBUG]   (s) outputDirectory = C:\Users\USUARIO\saucedemo-automation\target\classes
+[DEBUG]   (s) overwrite = false
+[DEBUG]   (f) project = MavenProject: com.saucedemo:saucedemo-automation:1.0-SNAPSHOT @ C:\Users\USUARIO\saucedemo-automation\pom.xml
+[DEBUG]   (s) resources = [Resource {targetPath: null, filtering: false, FileSet {directory: C:\Users\USUARIO\saucedemo-automation\src\main\resources, PatternSet [includes: {}, excludes: {}]}}]
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@1b410308
+[DEBUG]   (f) skip = false
+[DEBUG]   (f) supportMultiLineFiltering = false
+[DEBUG]   (f) useBuildFilters = true
+[DEBUG]   (s) useDefaultDelimiters = true
+[DEBUG] -- end configuration --
+[DEBUG] properties used:
+[DEBUG] classworlds.conf: C:\Users\USUARIO\Documents\apache-maven-3.9.13\bin\m2.conf
+[DEBUG] env.=::: ::\
+[DEBUG] env.=C:: C:\Users\USUARIO\saucedemo-automation
+[DEBUG] env.=EXITCODE: 00000000
+[DEBUG] env.ALLUSERSPROFILE: C:\ProgramData
+[DEBUG] env.APPDATA: C:\Users\USUARIO\AppData\Roaming
+[DEBUG] env.CLASSWORLDS_JAR: "C:\Users\USUARIO\Documents\apache-maven-3.9.13\boot\plexus-classworlds-2.9.0.jar"
+[DEBUG] env.CLASSWORLDS_LAUNCHER: org.codehaus.plexus.classworlds.launcher.Launcher
+[DEBUG] env.COMMONPROGRAMFILES: C:\Program Files\Common Files
+[DEBUG] env.COMMONPROGRAMFILES(X86): C:\Program Files (x86)\Common Files
+[DEBUG] env.COMMONPROGRAMW6432: C:\Program Files\Common Files
+[DEBUG] env.COMPUTERNAME: DESKTOP-CHV3OPE
+[DEBUG] env.COMSPEC: C:\WINDOWS\system32\cmd.exe
+[DEBUG] env.DRIVERDATA: C:\Windows\System32\Drivers\DriverData
+[DEBUG] env.EFC_12456_1592913036: 1
+[DEBUG] env.ERROR_CODE: 0
+[DEBUG] env.EXEC_DIR: C:\Users\USUARIO\saucedemo-automation
+[DEBUG] env.FPS_BROWSER_APP_PROFILE_STRING: Internet Explorer
+[DEBUG] env.FPS_BROWSER_USER_PROFILE_STRING: Default
+[DEBUG] env.HOMEDRIVE: C:
+[DEBUG] env.HOMEPATH: \Users\USUARIO
+[DEBUG] env.INTERNAL_MAVEN_OPTS: --enable-native-access=ALL-UNNAMED 
+[DEBUG] env.JAVACMD: C:\Program Files\Java\jdk-17\bin\java.exe
+[DEBUG] env.JAVA_HOME: C:\Program Files\Java\jdk-17
+[DEBUG] env.JVMCONFIG: \.mvn\jvm.config
+[DEBUG] env.LOCALAPPDATA: C:\Users\USUARIO\AppData\Local
+[DEBUG] env.LOGONSERVER: \\DESKTOP-CHV3OPE
+[DEBUG] env.MAVEN_CMD_LINE_ARGS: clean test -X
+[DEBUG] env.MAVEN_HOME: C:\Users\USUARIO\Documents\apache-maven-3.9.13
+[DEBUG] env.MAVEN_PROJECTBASEDIR: C:\Users\USUARIO\saucedemo-automation
+[DEBUG] env.NUMBER_OF_PROCESSORS: 4
+[DEBUG] env.ONEDRIVE: C:\Users\USUARIO\OneDrive
+[DEBUG] env.ONEDRIVECONSUMER: C:\Users\USUARIO\OneDrive
+[DEBUG] env.OS: Windows_NT
+[DEBUG] env.PATH: C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;%JAVA_HOME%\bin;C:\maven\apache-maven-3.9.13\bin;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\USUARIO\AppData\Local\Microsoft\WindowsApps;C:\Users\USUARIO\AppData\Local\Python\bin;C:\Users\USUARIO\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\USUARIO\Documents\apache-maven-3.9.13\bin;
+[DEBUG] env.PATHEXT: .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+[DEBUG] env.PROCESSOR_ARCHITECTURE: AMD64
+[DEBUG] env.PROCESSOR_IDENTIFIER: Intel64 Family 6 Model 122 Stepping 8, GenuineIntel
+[DEBUG] env.PROCESSOR_LEVEL: 6
+[DEBUG] env.PROCESSOR_REVISION: 7a08
+[DEBUG] env.PROGRAMDATA: C:\ProgramData
+[DEBUG] env.PROGRAMFILES: C:\Program Files
+[DEBUG] env.PROGRAMFILES(X86): C:\Program Files (x86)
+[DEBUG] env.PROGRAMW6432: C:\Program Files
+[DEBUG] env.PROMPT: $P$G
+[DEBUG] env.PSMODULEPATH: C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+[DEBUG] env.PUBLIC: C:\Users\Public
+[DEBUG] env.SESSIONNAME: Console
+[DEBUG] env.SYSTEMDRIVE: C:
+[DEBUG] env.SYSTEMROOT: C:\WINDOWS
+[DEBUG] env.TEMP: C:\Users\USUARIO\AppData\Local\Temp
+[DEBUG] env.TMP: C:\Users\USUARIO\AppData\Local\Temp
+[DEBUG] env.USERDOMAIN: DESKTOP-CHV3OPE
+[DEBUG] env.USERDOMAIN_ROAMINGPROFILE: DESKTOP-CHV3OPE
+[DEBUG] env.USERNAME: USUARIO
+[DEBUG] env.USERPROFILE: C:\Users\USUARIO
+[DEBUG] env.WDIR: C:\
+[DEBUG] env.WINDIR: C:\WINDOWS
+[DEBUG] env.ZES_ENABLE_SYSMAN: 1
+[DEBUG] file.encoding: Cp1252
+[DEBUG] file.separator: \
+[DEBUG] java.class.path: C:\Users\USUARIO\Documents\apache-maven-3.9.13\boot\plexus-classworlds-2.9.0.jar
+[DEBUG] java.class.version: 61.0
+[DEBUG] java.home: C:\Program Files\Java\jdk-17
+[DEBUG] java.io.tmpdir: C:\Users\USUARIO\AppData\Local\Temp\
+[DEBUG] java.library.path: C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;%JAVA_HOME%\bin;C:\maven\apache-maven-3.9.13\bin;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\USUARIO\AppData\Local\Microsoft\WindowsApps;C:\Users\USUARIO\AppData\Local\Python\bin;C:\Users\USUARIO\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\USUARIO\Documents\apache-maven-3.9.13\bin;;.
+[DEBUG] java.runtime.name: Java(TM) SE Runtime Environment
+[DEBUG] java.runtime.version: 17.0.12+8-LTS-286
+[DEBUG] java.specification.name: Java Platform API Specification
+[DEBUG] java.specification.vendor: Oracle Corporation
+[DEBUG] java.specification.version: 17
+[DEBUG] java.vendor: Oracle Corporation
+[DEBUG] java.vendor.url: https://java.oracle.com/
+[DEBUG] java.vendor.url.bug: https://bugreport.java.com/bugreport/
+[DEBUG] java.version: 17.0.12
+[DEBUG] java.version.date: 2024-07-16
+[DEBUG] java.vm.compressedOopsMode: 32-bit
+[DEBUG] java.vm.info: mixed mode, sharing
+[DEBUG] java.vm.name: Java HotSpot(TM) 64-Bit Server VM
+[DEBUG] java.vm.specification.name: Java Virtual Machine Specification
+[DEBUG] java.vm.specification.vendor: Oracle Corporation
+[DEBUG] java.vm.specification.version: 17
+[DEBUG] java.vm.vendor: Oracle Corporation
+[DEBUG] java.vm.version: 17.0.12+8-LTS-286
+[DEBUG] jdk.debug: release
+[DEBUG] junit.version: 5.10.0
+[DEBUG] library.jansi.path: C:\Users\USUARIO\Documents\apache-maven-3.9.13\lib\jansi-native
+[DEBUG] line.separator: 
+
+[DEBUG] maven.build.timestamp: 2026-03-12T15:33:19Z
+[DEBUG] maven.build.version: Apache Maven 3.9.13 (39d686bd50d8e054301e3a68ad44781df6f80dda)
+[DEBUG] maven.compiler.source: 11
+[DEBUG] maven.compiler.target: 11
+[DEBUG] maven.conf: C:\Users\USUARIO\Documents\apache-maven-3.9.13/conf
+[DEBUG] maven.home: C:\Users\USUARIO\Documents\apache-maven-3.9.13
+[DEBUG] maven.multiModuleProjectDirectory: C:\Users\USUARIO\saucedemo-automation
+[DEBUG] maven.version: 3.9.13
+[DEBUG] native.encoding: Cp1252
+[DEBUG] os.arch: amd64
+[DEBUG] os.name: Windows 11
+[DEBUG] os.version: 10.0
+[DEBUG] path.separator: ;
+[DEBUG] project.baseUri: file:/C:/Users/USUARIO/saucedemo-automation/
+[DEBUG] project.build.sourceEncoding: UTF-8
+[DEBUG] serenity.cucumber.version: 4.1.0
+[DEBUG] serenity.version: 4.1.0
+[DEBUG] sun.arch.data.model: 64
+[DEBUG] sun.boot.library.path: C:\Program Files\Java\jdk-17\bin
+[DEBUG] sun.cpu.endian: little
+[DEBUG] sun.cpu.isalist: amd64
+[DEBUG] sun.io.unicode.encoding: UnicodeLittle
+[DEBUG] sun.java.command: org.codehaus.plexus.classworlds.launcher.Launcher clean test -X
+[DEBUG] sun.java.launcher: SUN_STANDARD
+[DEBUG] sun.jnu.encoding: Cp1252
+[DEBUG] sun.management.compiler: HotSpot 64-Bit Tiered Compilers
+[DEBUG] sun.os.patch.level: 
+[DEBUG] sun.stderr.encoding: cp850
+[DEBUG] user.country: MX
+[DEBUG] user.country.format: US
+[DEBUG] user.dir: C:\Users\USUARIO\saucedemo-automation
+[DEBUG] user.home: C:\Users\USUARIO
+[DEBUG] user.language: es
+[DEBUG] user.language.format: en
+[DEBUG] user.name: USUARIO
+[DEBUG] user.script: 
+[DEBUG] user.variant: 
+[DEBUG] Using 'UTF-8' encoding to copy filtered resources.
+[DEBUG] Using 'UTF-8' encoding to copy filtered properties files.
+[DEBUG] resource with targetPath null
+directory C:\Users\USUARIO\saucedemo-automation\src\main\resources
+excludes []
+includes []
+[INFO] skip non existing resourceDirectory C:\Users\USUARIO\saucedemo-automation\src\main\resources
+[DEBUG] no user filter components
+[INFO] 
+[INFO] --- compiler:3.15.0:compile (default-compile) @ saucedemo-automation ---
+[DEBUG] Dependency collection stats {ConflictMarker.analyzeTime=77400, ConflictMarker.markTime=146300, ConflictMarker.nodeCount=23, ConflictIdSorter.graphTime=38700, ConflictIdSorter.topsortTime=61100, ConflictIdSorter.conflictIdCount=14, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=996400, ConflictResolver.conflictItemCount=23, DfDependencyCollector.collectTime=249295200, DfDependencyCollector.transformTime=1387400}
+[DEBUG] org.apache.maven.plugins:maven-compiler-plugin:jar:3.15.0
+[DEBUG]    org.ow2.asm:asm:jar:9.9.1:compile
+[DEBUG]    org.apache.maven.shared:maven-shared-utils:jar:3.4.2:compile
+[DEBUG]       org.slf4j:slf4j-api:jar:1.7.36:compile
+[DEBUG]       commons-io:commons-io:jar:2.11.0:compile
+[DEBUG]    org.apache.maven.shared:maven-shared-incremental:jar:1.1:compile
+[DEBUG]    org.codehaus.plexus:plexus-java:jar:1.5.2:compile
+[DEBUG]       com.thoughtworks.qdox:qdox:jar:2.2.0:compile
+[DEBUG]    org.codehaus.plexus:plexus-compiler-api:jar:2.16.2:compile
+[DEBUG]    org.codehaus.plexus:plexus-compiler-manager:jar:2.16.2:compile
+[DEBUG]       javax.inject:javax.inject:jar:1:compile
+[DEBUG]       org.codehaus.plexus:plexus-xml:jar:3.0.1:compile (version managed from default)
+[DEBUG]    org.codehaus.plexus:plexus-compiler-javac:jar:2.16.2:runtime
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:4.0.2:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:3.15.0
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:3.15.0
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:3.15.0
+[DEBUG]   Included: org.apache.maven.plugins:maven-compiler-plugin:jar:3.15.0
+[DEBUG]   Included: org.ow2.asm:asm:jar:9.9.1
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-utils:jar:3.4.2
+[DEBUG]   Included: commons-io:commons-io:jar:2.11.0
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-incremental:jar:1.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-java:jar:1.5.2
+[DEBUG]   Included: com.thoughtworks.qdox:qdox:jar:2.2.0
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-api:jar:2.16.2
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-manager:jar:2.16.2
+[DEBUG]   Included: org.codehaus.plexus:plexus-xml:jar:3.0.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-javac:jar:2.16.2
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:4.0.2
+[DEBUG] Loading mojo org.apache.maven.plugins:maven-compiler-plugin:3.15.0:compile from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-compiler-plugin:3.15.0, parent: jdk.internal.loader.ClassLoaders$AppClassLoader@2a139a55]
+[DEBUG] Configuring mojo execution 'org.apache.maven.plugins:maven-compiler-plugin:3.15.0:compile:default-compile' with basic configurator -->
+[DEBUG]   (f) annotationProcessorPathsUseDepMgmt = false
+[DEBUG]   (f) basedir = C:\Users\USUARIO\saucedemo-automation
+[DEBUG]   (f) buildDirectory = C:\Users\USUARIO\saucedemo-automation\target
+[DEBUG]   (f) compilePath = [C:\Users\USUARIO\saucedemo-automation\target\classes]
+[DEBUG]   (f) compileSourceRoots = [C:\Users\USUARIO\saucedemo-automation\src\main\java]
+[DEBUG]   (f) compilerId = javac
+[DEBUG]   (f) createMissingPackageInfoClass = true
+[DEBUG]   (f) debug = true
+[DEBUG]   (f) debugFileName = javac
+[DEBUG]   (f) enablePreview = false
+[DEBUG]   (f) encoding = UTF-8
+[DEBUG]   (f) failOnError = true
+[DEBUG]   (f) failOnWarning = false
+[DEBUG]   (f) fileExtensions = [jar, class]
+[DEBUG]   (f) forceJavacCompilerUse = false
+[DEBUG]   (f) forceLegacyJavacApi = false
+[DEBUG]   (f) fork = false
+[DEBUG]   (f) generatedSourcesDirectory = C:\Users\USUARIO\saucedemo-automation\target\generated-sources\annotations
+[DEBUG]   (f) moduleVersion = 1.0-SNAPSHOT
+[DEBUG]   (f) mojoExecution = org.apache.maven.plugins:maven-compiler-plugin:3.15.0:compile {execution: default-compile}
+[DEBUG]   (f) optimize = false
+[DEBUG]   (f) outputDirectory = C:\Users\USUARIO\saucedemo-automation\target\classes
+[DEBUG]   (f) parameters = false
+[DEBUG]   (f) project = MavenProject: com.saucedemo:saucedemo-automation:1.0-SNAPSHOT @ C:\Users\USUARIO\saucedemo-automation\pom.xml
+[DEBUG]   (f) projectArtifact = com.saucedemo:saucedemo-automation:jar:1.0-SNAPSHOT
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@1b410308
+[DEBUG]   (f) showCompilationChanges = false
+[DEBUG]   (f) showDeprecation = false
+[DEBUG]   (f) showWarnings = true
+[DEBUG]   (f) skipMultiThreadWarning = false
+[DEBUG]   (f) source = 11
+[DEBUG]   (f) staleMillis = 0
+[DEBUG]   (s) target = 11
+[DEBUG]   (f) useIncrementalCompilation = true
+[DEBUG]   (f) useModuleVersion = true
+[DEBUG]   (f) verbose = false
+[DEBUG] -- end configuration --
+[DEBUG] Using compiler 'javac'.
+[DEBUG] CompilerReuseStrategy: reuseCreated
+[DEBUG] useIncrementalCompilation enabled
+[INFO] Nothing to compile - all classes are up to date.
+[DEBUG] Adding C:\Users\USUARIO\saucedemo-automation\target\generated-sources\annotations to the project compile source roots but NOT the actual compile source roots:
+  C:\Users\USUARIO\saucedemo-automation\src\main\java
+[INFO] 
+[INFO] --- resources:3.4.0:testResources (default-testResources) @ saucedemo-automation ---
+[DEBUG] Loading mojo org.apache.maven.plugins:maven-resources-plugin:3.4.0:testResources from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-resources-plugin:3.4.0, parent: jdk.internal.loader.ClassLoaders$AppClassLoader@2a139a55]
+[DEBUG] Configuring mojo execution 'org.apache.maven.plugins:maven-resources-plugin:3.4.0:testResources:default-testResources' with basic configurator -->
+[DEBUG]   (f) addDefaultExcludes = true
+[DEBUG]   (f) buildFilters = []
+[DEBUG]   (f) encoding = UTF-8
+[DEBUG]   (f) escapeWindowsPaths = true
+[DEBUG]   (f) fileNameFiltering = false
+[DEBUG]   (s) includeEmptyDirs = false
+[DEBUG]   (s) outputDirectory = C:\Users\USUARIO\saucedemo-automation\target\test-classes
+[DEBUG]   (s) overwrite = false
+[DEBUG]   (f) project = MavenProject: com.saucedemo:saucedemo-automation:1.0-SNAPSHOT @ C:\Users\USUARIO\saucedemo-automation\pom.xml
+[DEBUG]   (s) resources = [Resource {targetPath: null, filtering: false, FileSet {directory: C:\Users\USUARIO\saucedemo-automation\src\test\resources, PatternSet [includes: {}, excludes: {}]}}]
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@1b410308
+[DEBUG]   (f) skip = false
+[DEBUG]   (f) supportMultiLineFiltering = false
+[DEBUG]   (f) useBuildFilters = true
+[DEBUG]   (s) useDefaultDelimiters = true
+[DEBUG] -- end configuration --
+[DEBUG] properties used:
+[DEBUG] classworlds.conf: C:\Users\USUARIO\Documents\apache-maven-3.9.13\bin\m2.conf
+[DEBUG] env.=::: ::\
+[DEBUG] env.=C:: C:\Users\USUARIO\saucedemo-automation
+[DEBUG] env.=EXITCODE: 00000000
+[DEBUG] env.ALLUSERSPROFILE: C:\ProgramData
+[DEBUG] env.APPDATA: C:\Users\USUARIO\AppData\Roaming
+[DEBUG] env.CLASSWORLDS_JAR: "C:\Users\USUARIO\Documents\apache-maven-3.9.13\boot\plexus-classworlds-2.9.0.jar"
+[DEBUG] env.CLASSWORLDS_LAUNCHER: org.codehaus.plexus.classworlds.launcher.Launcher
+[DEBUG] env.COMMONPROGRAMFILES: C:\Program Files\Common Files
+[DEBUG] env.COMMONPROGRAMFILES(X86): C:\Program Files (x86)\Common Files
+[DEBUG] env.COMMONPROGRAMW6432: C:\Program Files\Common Files
+[DEBUG] env.COMPUTERNAME: DESKTOP-CHV3OPE
+[DEBUG] env.COMSPEC: C:\WINDOWS\system32\cmd.exe
+[DEBUG] env.DRIVERDATA: C:\Windows\System32\Drivers\DriverData
+[DEBUG] env.EFC_12456_1592913036: 1
+[DEBUG] env.ERROR_CODE: 0
+[DEBUG] env.EXEC_DIR: C:\Users\USUARIO\saucedemo-automation
+[DEBUG] env.FPS_BROWSER_APP_PROFILE_STRING: Internet Explorer
+[DEBUG] env.FPS_BROWSER_USER_PROFILE_STRING: Default
+[DEBUG] env.HOMEDRIVE: C:
+[DEBUG] env.HOMEPATH: \Users\USUARIO
+[DEBUG] env.INTERNAL_MAVEN_OPTS: --enable-native-access=ALL-UNNAMED 
+[DEBUG] env.JAVACMD: C:\Program Files\Java\jdk-17\bin\java.exe
+[DEBUG] env.JAVA_HOME: C:\Program Files\Java\jdk-17
+[DEBUG] env.JVMCONFIG: \.mvn\jvm.config
+[DEBUG] env.LOCALAPPDATA: C:\Users\USUARIO\AppData\Local
+[DEBUG] env.LOGONSERVER: \\DESKTOP-CHV3OPE
+[DEBUG] env.MAVEN_CMD_LINE_ARGS: clean test -X
+[DEBUG] env.MAVEN_HOME: C:\Users\USUARIO\Documents\apache-maven-3.9.13
+[DEBUG] env.MAVEN_PROJECTBASEDIR: C:\Users\USUARIO\saucedemo-automation
+[DEBUG] env.NUMBER_OF_PROCESSORS: 4
+[DEBUG] env.ONEDRIVE: C:\Users\USUARIO\OneDrive
+[DEBUG] env.ONEDRIVECONSUMER: C:\Users\USUARIO\OneDrive
+[DEBUG] env.OS: Windows_NT
+[DEBUG] env.PATH: C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;%JAVA_HOME%\bin;C:\maven\apache-maven-3.9.13\bin;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\USUARIO\AppData\Local\Microsoft\WindowsApps;C:\Users\USUARIO\AppData\Local\Python\bin;C:\Users\USUARIO\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\USUARIO\Documents\apache-maven-3.9.13\bin;
+[DEBUG] env.PATHEXT: .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+[DEBUG] env.PROCESSOR_ARCHITECTURE: AMD64
+[DEBUG] env.PROCESSOR_IDENTIFIER: Intel64 Family 6 Model 122 Stepping 8, GenuineIntel
+[DEBUG] env.PROCESSOR_LEVEL: 6
+[DEBUG] env.PROCESSOR_REVISION: 7a08
+[DEBUG] env.PROGRAMDATA: C:\ProgramData
+[DEBUG] env.PROGRAMFILES: C:\Program Files
+[DEBUG] env.PROGRAMFILES(X86): C:\Program Files (x86)
+[DEBUG] env.PROGRAMW6432: C:\Program Files
+[DEBUG] env.PROMPT: $P$G
+[DEBUG] env.PSMODULEPATH: C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+[DEBUG] env.PUBLIC: C:\Users\Public
+[DEBUG] env.SESSIONNAME: Console
+[DEBUG] env.SYSTEMDRIVE: C:
+[DEBUG] env.SYSTEMROOT: C:\WINDOWS
+[DEBUG] env.TEMP: C:\Users\USUARIO\AppData\Local\Temp
+[DEBUG] env.TMP: C:\Users\USUARIO\AppData\Local\Temp
+[DEBUG] env.USERDOMAIN: DESKTOP-CHV3OPE
+[DEBUG] env.USERDOMAIN_ROAMINGPROFILE: DESKTOP-CHV3OPE
+[DEBUG] env.USERNAME: USUARIO
+[DEBUG] env.USERPROFILE: C:\Users\USUARIO
+[DEBUG] env.WDIR: C:\
+[DEBUG] env.WINDIR: C:\WINDOWS
+[DEBUG] env.ZES_ENABLE_SYSMAN: 1
+[DEBUG] file.encoding: Cp1252
+[DEBUG] file.separator: \
+[DEBUG] java.class.path: C:\Users\USUARIO\Documents\apache-maven-3.9.13\boot\plexus-classworlds-2.9.0.jar
+[DEBUG] java.class.version: 61.0
+[DEBUG] java.home: C:\Program Files\Java\jdk-17
+[DEBUG] java.io.tmpdir: C:\Users\USUARIO\AppData\Local\Temp\
+[DEBUG] java.library.path: C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;%JAVA_HOME%\bin;C:\maven\apache-maven-3.9.13\bin;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\USUARIO\AppData\Local\Microsoft\WindowsApps;C:\Users\USUARIO\AppData\Local\Python\bin;C:\Users\USUARIO\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\USUARIO\Documents\apache-maven-3.9.13\bin;;.
+[DEBUG] java.runtime.name: Java(TM) SE Runtime Environment
+[DEBUG] java.runtime.version: 17.0.12+8-LTS-286
+[DEBUG] java.specification.name: Java Platform API Specification
+[DEBUG] java.specification.vendor: Oracle Corporation
+[DEBUG] java.specification.version: 17
+[DEBUG] java.vendor: Oracle Corporation
+[DEBUG] java.vendor.url: https://java.oracle.com/
+[DEBUG] java.vendor.url.bug: https://bugreport.java.com/bugreport/
+[DEBUG] java.version: 17.0.12
+[DEBUG] java.version.date: 2024-07-16
+[DEBUG] java.vm.compressedOopsMode: 32-bit
+[DEBUG] java.vm.info: mixed mode, sharing
+[DEBUG] java.vm.name: Java HotSpot(TM) 64-Bit Server VM
+[DEBUG] java.vm.specification.name: Java Virtual Machine Specification
+[DEBUG] java.vm.specification.vendor: Oracle Corporation
+[DEBUG] java.vm.specification.version: 17
+[DEBUG] java.vm.vendor: Oracle Corporation
+[DEBUG] java.vm.version: 17.0.12+8-LTS-286
+[DEBUG] jdk.debug: release
+[DEBUG] junit.version: 5.10.0
+[DEBUG] library.jansi.path: C:\Users\USUARIO\Documents\apache-maven-3.9.13\lib\jansi-native
+[DEBUG] line.separator: 
+
+[DEBUG] maven.build.timestamp: 2026-03-12T15:33:20Z
+[DEBUG] maven.build.version: Apache Maven 3.9.13 (39d686bd50d8e054301e3a68ad44781df6f80dda)
+[DEBUG] maven.compiler.source: 11
+[DEBUG] maven.compiler.target: 11
+[DEBUG] maven.conf: C:\Users\USUARIO\Documents\apache-maven-3.9.13/conf
+[DEBUG] maven.home: C:\Users\USUARIO\Documents\apache-maven-3.9.13
+[DEBUG] maven.multiModuleProjectDirectory: C:\Users\USUARIO\saucedemo-automation
+[DEBUG] maven.version: 3.9.13
+[DEBUG] native.encoding: Cp1252
+[DEBUG] os.arch: amd64
+[DEBUG] os.name: Windows 11
+[DEBUG] os.version: 10.0
+[DEBUG] path.separator: ;
+[DEBUG] project.baseUri: file:/C:/Users/USUARIO/saucedemo-automation/
+[DEBUG] project.build.sourceEncoding: UTF-8
+[DEBUG] serenity.cucumber.version: 4.1.0
+[DEBUG] serenity.version: 4.1.0
+[DEBUG] sun.arch.data.model: 64
+[DEBUG] sun.boot.library.path: C:\Program Files\Java\jdk-17\bin
+[DEBUG] sun.cpu.endian: little
+[DEBUG] sun.cpu.isalist: amd64
+[DEBUG] sun.io.unicode.encoding: UnicodeLittle
+[DEBUG] sun.java.command: org.codehaus.plexus.classworlds.launcher.Launcher clean test -X
+[DEBUG] sun.java.launcher: SUN_STANDARD
+[DEBUG] sun.jnu.encoding: Cp1252
+[DEBUG] sun.management.compiler: HotSpot 64-Bit Tiered Compilers
+[DEBUG] sun.os.patch.level: 
+[DEBUG] sun.stderr.encoding: cp850
+[DEBUG] user.country: MX
+[DEBUG] user.country.format: US
+[DEBUG] user.dir: C:\Users\USUARIO\saucedemo-automation
+[DEBUG] user.home: C:\Users\USUARIO
+[DEBUG] user.language: es
+[DEBUG] user.language.format: en
+[DEBUG] user.name: USUARIO
+[DEBUG] user.script: 
+[DEBUG] user.variant: 
+[DEBUG] Using 'UTF-8' encoding to copy filtered resources.
+[DEBUG] Using 'UTF-8' encoding to copy filtered properties files.
+[DEBUG] resource with targetPath null
+directory C:\Users\USUARIO\saucedemo-automation\src\test\resources
+excludes []
+includes []
+[INFO] Copying 3 resources from src\test\resources to target\test-classes
+[DEBUG] Copying file config.properties
+[DEBUG] file config.properties has a filtered file extension
+[DEBUG] Using 'UTF-8' encoding to copy filtered resource 'config.properties'.
+[DEBUG] copy C:\Users\USUARIO\saucedemo-automation\src\test\resources\config.properties to C:\Users\USUARIO\saucedemo-automation\target\test-classes\config.properties
+[DEBUG] Copying file features\saucedemo.feature
+[DEBUG] file saucedemo.feature has a filtered file extension
+[DEBUG] Using 'UTF-8' encoding to copy filtered resource 'saucedemo.feature'.
+[DEBUG] copy C:\Users\USUARIO\saucedemo-automation\src\test\resources\features\saucedemo.feature to C:\Users\USUARIO\saucedemo-automation\target\test-classes\features\saucedemo.feature
+[DEBUG] Copying file serenity.properties
+[DEBUG] file serenity.properties has a filtered file extension
+[DEBUG] Using 'UTF-8' encoding to copy filtered resource 'serenity.properties'.
+[DEBUG] copy C:\Users\USUARIO\saucedemo-automation\src\test\resources\serenity.properties to C:\Users\USUARIO\saucedemo-automation\target\test-classes\serenity.properties
+[DEBUG] no user filter components
+[INFO] 
+[INFO] --- compiler:3.15.0:testCompile (default-testCompile) @ saucedemo-automation ---
+[DEBUG] Loading mojo org.apache.maven.plugins:maven-compiler-plugin:3.15.0:testCompile from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-compiler-plugin:3.15.0, parent: jdk.internal.loader.ClassLoaders$AppClassLoader@2a139a55]
+[DEBUG] Configuring mojo execution 'org.apache.maven.plugins:maven-compiler-plugin:3.15.0:testCompile:default-testCompile' with basic configurator -->
+[DEBUG]   (f) annotationProcessorPathsUseDepMgmt = false
+[DEBUG]   (f) basedir = C:\Users\USUARIO\saucedemo-automation
+[DEBUG]   (f) buildDirectory = C:\Users\USUARIO\saucedemo-automation\target
+[DEBUG]   (f) compileSourceRoots = [C:\Users\USUARIO\saucedemo-automation\src\test\java]
+[DEBUG]   (f) compilerId = javac
+[DEBUG]   (f) createMissingPackageInfoClass = true
+[DEBUG]   (f) debug = true
+[DEBUG]   (f) debugFileName = javac-test
+[DEBUG]   (f) enablePreview = false
+[DEBUG]   (f) encoding = UTF-8
+[DEBUG]   (f) failOnError = true
+[DEBUG]   (f) failOnWarning = false
+[DEBUG]   (f) fileExtensions = [jar, class]
+[DEBUG]   (f) forceJavacCompilerUse = false
+[DEBUG]   (f) forceLegacyJavacApi = false
+[DEBUG]   (f) fork = false
+[DEBUG]   (f) generatedTestSourcesDirectory = C:\Users\USUARIO\saucedemo-automation\target\generated-test-sources\test-annotations
+[DEBUG]   (f) mojoExecution = org.apache.maven.plugins:maven-compiler-plugin:3.15.0:testCompile {execution: default-testCompile}
+[DEBUG]   (f) optimize = false
+[DEBUG]   (f) outputDirectory = C:\Users\USUARIO\saucedemo-automation\target\test-classes
+[DEBUG]   (f) parameters = false
+[DEBUG]   (f) project = MavenProject: com.saucedemo:saucedemo-automation:1.0-SNAPSHOT @ C:\Users\USUARIO\saucedemo-automation\pom.xml
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@1b410308
+[DEBUG]   (f) showCompilationChanges = false
+[DEBUG]   (f) showDeprecation = false
+[DEBUG]   (f) showWarnings = true
+[DEBUG]   (f) skipMultiThreadWarning = false
+[DEBUG]   (f) source = 11
+[DEBUG]   (f) staleMillis = 0
+[DEBUG]   (s) target = 11
+[DEBUG]   (f) testPath = [C:\Users\USUARIO\saucedemo-automation\target\test-classes, C:\Users\USUARIO\saucedemo-automation\target\classes, C:\Users\USUARIO\.m2\repository\net\serenity-bdd\serenity-core\4.1.0\serenity-core-4.1.0.jar, C:\Users\USUARIO\.m2\repository\net\serenity-bdd\serenity-model\4.1.0\serenity-model-4.1.0.jar, C:\Users\USUARIO\.m2\repository\org\apache\commons\commons-text\1.11.0\commons-text-1.11.0.jar, C:\Users\USUARIO\.m2\repository\commons-net\commons-net\3.10.0\commons-net-3.10.0.jar, C:\Users\USUARIO\.m2\repository\com\google\guava\guava\32.1.3-jre\guava-32.1.3-jre.jar, C:\Users\USUARIO\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar, C:\Users\USUARIO\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar, C:\Users\USUARIO\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar, C:\Users\USUARIO\.m2\repository\org\checkerframework\checker-qual\3.37.0\checker-qual-3.37.0.jar, C:\Users\USUARIO\.m2\repository\com\google\errorprone\error_prone_annotations\2.21.1\error_prone_annotations-2.21.1.jar, C:\Users\USUARIO\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar, C:\Users\USUARIO\.m2\repository\org\jsoup\jsoup\1.15.4\jsoup-1.15.4.jar, C:\Users\USUARIO\.m2\repository\com\thoughtworks\xstream\xstream\1.4.20\xstream-1.4.20.jar, C:\Users\USUARIO\.m2\repository\io\github\x-stream\mxparser\1.2.2\mxparser-1.2.2.jar, C:\Users\USUARIO\.m2\repository\xmlpull\xmlpull\1.1.3.1\xmlpull-1.1.3.1.jar, C:\Users\USUARIO\.m2\repository\com\typesafe\config\1.4.3\config-1.4.3.jar, C:\Users\USUARIO\.m2\repository\org\imgscalr\imgscalr-lib\4.2\imgscalr-lib-4.2.jar, C:\Users\USUARIO\.m2\repository\org\awaitility\awaitility\4.2.0\awaitility-4.2.0.jar, C:\Users\USUARIO\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar, C:\Users\USUARIO\.m2\repository\io\github\classgraph\classgraph\4.8.157\classgraph-4.8.157.jar, C:\Users\USUARIO\.m2\repository\com\github\ben-manes\caffeine\caffeine\2.9.2\caffeine-2.9.2.jar, C:\Users\USUARIO\.m2\repository\org\ehcache\ehcache\3.10.8\ehcache-3.10.8.jar, C:\Users\USUARIO\.m2\repository\javax\cache\cache-api\1.1.0\cache-api-1.1.0.jar, C:\Users\USUARIO\.m2\repository\net\sourceforge\jexcelapi\jxl\2.6.12\jxl-2.6.12.jar, C:\Users\USUARIO\.m2\repository\net\bytebuddy\byte-buddy\1.14.10\byte-buddy-1.14.10.jar, C:\Users\USUARIO\.m2\repository\net\bytebuddy\byte-buddy-agent\1.14.10\byte-buddy-agent-1.14.10.jar, C:\Users\USUARIO\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar, C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-all\0.64.8\flexmark-all-0.64.8.jar, C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark\0.64.8\flexmark-0.64.8.jar, C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-ext-abbreviation\0.64.8\flexmark-ext-abbreviation-0.64.8.jar, C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-ext-admonition\0.64.8\flexmark-ext-admonition-0.64.8.jar, C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-ext-anchorlink\0.64.8\flexmark-ext-anchorlink-0.64.8.jar, C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-ext-aside\0.64.8\flexmark-ext-aside-0.64.8.jar, C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-ext-attributes\0.64.8\flexmark-ext-attributes-0.64.8.jar, C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-ext-autolink\0.64.8\flexmark-ext-autolink-0.64.8.jar, C:\Users\USUARIO\.m2\repository\org\nibor\autolink\autolink\0.6.0\autolink-0.6.0.jar, C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-ext-definition\0.64.8\flexmark-ext-definition-0.64.8.jar, C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-ext-emoji\0.64.8\flexmark-ext-emoji-0.64.8.jar, C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-ext-enumerated-reference\0.64.8\flexmark-ext-enumerated-reference-0.64.8.jar, C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-ext-escaped-character\0.64.8\flexmark-ext-escaped-character-0.64.8.jar, C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-ext-footnotes\0.64.8\flexmark-ext-footnotes-0.64.8.jar, C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-issues\0.64.8\flexmark-ext-gfm-issues-0.64.8.jar, C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-strikethrough\0.64.8\flexmark-ext-gfm-strikethrough-0.64.8.jar, C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-tasklist\0.64.8\flexmark-ext-gfm-tasklist-0.64.8.jar, C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-users\0.64.8\flexmark-ext-gfm-users-0.64.8.jar, C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-ext-gitlab\0.64.8\flexmark-ext-gitlab-0.64.8.jar, C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-ext-jekyll-front-matter\0.64.8\flexmark-ext-jekyll-front-matter-0.64.8.jar, C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-ext-jekyll-tag\0.64.8\flexmark-ext-jekyll-tag-0.64.8.jar, C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-ext-media-tags\0.64.8\flexmark-ext-media-tags-0.64.8.jar, C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-ext-macros\0.64.8\flexmark-ext-macros-0.64.8.jar, C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-ext-ins\0.64.8\flexmark-ext-ins-0.64.8.jar, C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-ext-xwiki-macros\0.64.8\flexmark-ext-xwiki-macros-0.64.8.jar, C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-ext-superscript\0.64.8\flexmark-ext-superscript-0.64.8.jar, C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-ext-toc\0.64.8\flexmark-ext-toc-0.64.8.jar, C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-ext-typographic\0.64.8\flexmark-ext-typographic-0.64.8.jar, C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-ext-wikilink\0.64.8\flexmark-ext-wikilink-0.64.8.jar, C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-ext-yaml-front-matter\0.64.8\flexmark-ext-yaml-front-matter-0.64.8.jar, C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-ext-youtube-embedded\0.64.8\flexmark-ext-youtube-embedded-0.64.8.jar, C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-html2md-converter\0.64.8\flexmark-html2md-converter-0.64.8.jar, C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-jira-converter\0.64.8\flexmark-jira-converter-0.64.8.jar, C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-pdf-converter\0.64.8\flexmark-pdf-converter-0.64.8.jar, C:\Users\USUARIO\.m2\repository\com\openhtmltopdf\openhtmltopdf-core\1.0.10\openhtmltopdf-core-1.0.10.jar, C:\Users\USUARIO\.m2\repository\com\openhtmltopdf\openhtmltopdf-pdfbox\1.0.10\openhtmltopdf-pdfbox-1.0.10.jar, C:\Users\USUARIO\.m2\repository\org\apache\pdfbox\pdfbox\2.0.24\pdfbox-2.0.24.jar, C:\Users\USUARIO\.m2\repository\org\apache\pdfbox\fontbox\2.0.24\fontbox-2.0.24.jar, C:\Users\USUARIO\.m2\repository\org\apache\pdfbox\xmpbox\2.0.24\xmpbox-2.0.24.jar, C:\Users\USUARIO\.m2\repository\de\rototor\pdfbox\graphics2d\0.32\graphics2d-0.32.jar, C:\Users\USUARIO\.m2\repository\com\openhtmltopdf\openhtmltopdf-rtl-support\1.0.10\openhtmltopdf-rtl-support-1.0.10.jar, C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-profile-pegdown\0.64.8\flexmark-profile-pegdown-0.64.8.jar, C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-util-ast\0.64.8\flexmark-util-ast-0.64.8.jar, C:\Users\USUARIO\.m2\repository\org\jetbrains\annotations\24.0.1\annotations-24.0.1.jar, C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-util-builder\0.64.8\flexmark-util-builder-0.64.8.jar, C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-util-collection\0.64.8\flexmark-util-collection-0.64.8.jar, C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-util-data\0.64.8\flexmark-util-data-0.64.8.jar, C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-util-dependency\0.64.8\flexmark-util-dependency-0.64.8.jar, C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-util-format\0.64.8\flexmark-util-format-0.64.8.jar, C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-util-html\0.64.8\flexmark-util-html-0.64.8.jar, C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-util-misc\0.64.8\flexmark-util-misc-0.64.8.jar, C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-util-options\0.64.8\flexmark-util-options-0.64.8.jar, C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-util-sequence\0.64.8\flexmark-util-sequence-0.64.8.jar, C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-util-visitor\0.64.8\flexmark-util-visitor-0.64.8.jar, C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-youtrack-converter\0.64.8\flexmark-youtrack-converter-0.64.8.jar, C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-ext-resizable-image\0.64.8\flexmark-ext-resizable-image-0.64.8.jar, C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-ext-tables\0.64.8\flexmark-ext-tables-0.64.8.jar, C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-util\0.64.8\flexmark-util-0.64.8.jar, C:\Users\USUARIO\.m2\repository\net\serenity-bdd\serenity-reports\4.1.0\serenity-reports-4.1.0.jar, C:\Users\USUARIO\.m2\repository\net\serenity-bdd\serenity-stats\4.1.0\serenity-stats-4.1.0.jar, C:\Users\USUARIO\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib\1.9.0\kotlin-stdlib-1.9.0.jar, C:\Users\USUARIO\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-common\1.9.0\kotlin-stdlib-common-1.9.0.jar, C:\Users\USUARIO\.m2\repository\net\serenity-bdd\serenity-reports-configuration\4.1.0\serenity-reports-configuration-4.1.0.jar, C:\Users\USUARIO\.m2\repository\com\ibm\icu\icu4j\72.1\icu4j-72.1.jar, C:\Users\USUARIO\.m2\repository\es\nitaur\markdown\txtmark\0.16\txtmark-0.16.jar, C:\Users\USUARIO\.m2\repository\net\serenity-bdd\serenity-report-resources\4.1.0\serenity-report-resources-4.1.0.jar, C:\Users\USUARIO\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar, C:\Users\USUARIO\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.16.0\jackson-core-2.16.0.jar, C:\Users\USUARIO\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.16.0\jackson-databind-2.16.0.jar, C:\Users\USUARIO\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.16.0\jackson-annotations-2.16.0.jar, C:\Users\USUARIO\.m2\repository\commons-codec\commons-codec\1.16.0\commons-codec-1.16.0.jar, C:\Users\USUARIO\.m2\repository\commons-io\commons-io\2.15.1\commons-io-2.15.1.jar, C:\Users\USUARIO\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar, C:\Users\USUARIO\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar, C:\Users\USUARIO\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar, C:\Users\USUARIO\.m2\repository\org\seleniumhq\selenium\selenium-api\4.16.1\selenium-api-4.16.1.jar, C:\Users\USUARIO\.m2\repository\org\seleniumhq\selenium\selenium-support\4.16.1\selenium-support-4.16.1.jar, C:\Users\USUARIO\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar, C:\Users\USUARIO\.m2\repository\org\seleniumhq\selenium\selenium-json\4.16.1\selenium-json-4.16.1.jar, C:\Users\USUARIO\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.16.1\selenium-chrome-driver-4.16.1.jar, C:\Users\USUARIO\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.16.1\selenium-chromium-driver-4.16.1.jar, C:\Users\USUARIO\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.16.1\selenium-manager-4.16.1.jar, C:\Users\USUARIO\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.16.1\selenium-firefox-driver-4.16.1.jar, C:\Users\USUARIO\.m2\repository\org\seleniumhq\selenium\selenium-http\4.16.1\selenium-http-4.16.1.jar, C:\Users\USUARIO\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar, C:\Users\USUARIO\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.16.1\selenium-edge-driver-4.16.1.jar, C:\Users\USUARIO\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.16.1\selenium-ie-driver-4.16.1.jar, C:\Users\USUARIO\.m2\repository\org\htmlunit\htmlunit\3.9.0\htmlunit-3.9.0.jar, C:\Users\USUARIO\.m2\repository\org\apache\httpcomponents\httpmime\4.5.14\httpmime-4.5.14.jar, C:\Users\USUARIO\.m2\repository\org\htmlunit\htmlunit-core-js\3.9.0\htmlunit-core-js-3.9.0.jar, C:\Users\USUARIO\.m2\repository\org\htmlunit\neko-htmlunit\3.9.0\neko-htmlunit-3.9.0.jar, C:\Users\USUARIO\.m2\repository\org\htmlunit\htmlunit-cssparser\3.9.0\htmlunit-cssparser-3.9.0.jar, C:\Users\USUARIO\.m2\repository\org\htmlunit\htmlunit-xpath\3.9.0\htmlunit-xpath-3.9.0.jar, C:\Users\USUARIO\.m2\repository\org\htmlunit\htmlunit-csp\3.9.0\htmlunit-csp-3.9.0.jar, C:\Users\USUARIO\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar, C:\Users\USUARIO\.m2\repository\org\eclipse\jetty\websocket\websocket-client\9.4.53.v20231009\websocket-client-9.4.53.v20231009.jar, C:\Users\USUARIO\.m2\repository\org\eclipse\jetty\jetty-client\9.4.53.v20231009\jetty-client-9.4.53.v20231009.jar, C:\Users\USUARIO\.m2\repository\org\eclipse\jetty\jetty-http\9.4.53.v20231009\jetty-http-9.4.53.v20231009.jar, C:\Users\USUARIO\.m2\repository\org\eclipse\jetty\jetty-util\9.4.53.v20231009\jetty-util-9.4.53.v20231009.jar, C:\Users\USUARIO\.m2\repository\org\eclipse\jetty\jetty-io\9.4.53.v20231009\jetty-io-9.4.53.v20231009.jar, C:\Users\USUARIO\.m2\repository\org\eclipse\jetty\websocket\websocket-common\9.4.53.v20231009\websocket-common-9.4.53.v20231009.jar, C:\Users\USUARIO\.m2\repository\org\eclipse\jetty\websocket\websocket-api\9.4.53.v20231009\websocket-api-9.4.53.v20231009.jar, C:\Users\USUARIO\.m2\repository\org\seleniumhq\selenium\htmlunit3-driver\4.16.0\htmlunit3-driver-4.16.0.jar, C:\Users\USUARIO\.m2\repository\io\appium\java-client\9.0.0\java-client-9.0.0.jar, C:\Users\USUARIO\.m2\repository\org\apache\groovy\groovy\4.0.13\groovy-4.0.13.jar, C:\Users\USUARIO\.m2\repository\net\sf\opencsv\opencsv\2.1\opencsv-2.1.jar, C:\Users\USUARIO\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar, C:\Users\USUARIO\.m2\repository\org\apache\commons\commons-compress\1.25.0\commons-compress-1.25.0.jar, C:\Users\USUARIO\.m2\repository\org\fluentlenium\fluentlenium-core\0.10.2\fluentlenium-core-0.10.2.jar, C:\Users\USUARIO\.m2\repository\com\jhlabs\filters\2.0.235\filters-2.0.235.jar, C:\Users\USUARIO\.m2\repository\com\paulhammant\ngwebdriver\1.1.6\ngwebdriver-1.1.6.jar, C:\Users\USUARIO\.m2\repository\joda-time\joda-time\2.12.5\joda-time-2.12.5.jar, C:\Users\USUARIO\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar, C:\Users\USUARIO\.m2\repository\com\google\jimfs\jimfs\1.3.0\jimfs-1.3.0.jar, C:\Users\USUARIO\.m2\repository\org\mockito\mockito-core\3.3.3\mockito-core-3.3.3.jar, C:\Users\USUARIO\.m2\repository\javax\xml\bind\jaxb-api\2.3.1\jaxb-api-2.3.1.jar, C:\Users\USUARIO\.m2\repository\javax\activation\javax.activation-api\1.2.0\javax.activation-api-1.2.0.jar, C:\Users\USUARIO\.m2\repository\com\sun\xml\bind\jaxb-core\2.3.0.1\jaxb-core-2.3.0.1.jar, C:\Users\USUARIO\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar, C:\Users\USUARIO\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar, C:\Users\USUARIO\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar, C:\Users\USUARIO\.m2\repository\javax\activation\activation\1.1.1\activation-1.1.1.jar, C:\Users\USUARIO\.m2\repository\net\serenity-bdd\serenity-cucumber\4.1.0\serenity-cucumber-4.1.0.jar, C:\Users\USUARIO\.m2\repository\net\serenity-bdd\serenity-screenplay-webdriver\4.1.0\serenity-screenplay-webdriver-4.1.0.jar, C:\Users\USUARIO\.m2\repository\io\cucumber\cucumber-core\7.15.0\cucumber-core-7.15.0.jar, C:\Users\USUARIO\.m2\repository\io\cucumber\cucumber-gherkin\7.15.0\cucumber-gherkin-7.15.0.jar, C:\Users\USUARIO\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.15.0\cucumber-gherkin-messages-7.15.0.jar, C:\Users\USUARIO\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar, C:\Users\USUARIO\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar, C:\Users\USUARIO\.m2\repository\io\cucumber\tag-expressions\6.0.0\tag-expressions-6.0.0.jar, C:\Users\USUARIO\.m2\repository\io\cucumber\cucumber-expressions\17.0.1\cucumber-expressions-17.0.1.jar, C:\Users\USUARIO\.m2\repository\io\cucumber\datatable\7.15.0\datatable-7.15.0.jar, C:\Users\USUARIO\.m2\repository\io\cucumber\cucumber-plugin\7.15.0\cucumber-plugin-7.15.0.jar, C:\Users\USUARIO\.m2\repository\io\cucumber\docstring\7.15.0\docstring-7.15.0.jar, C:\Users\USUARIO\.m2\repository\io\cucumber\html-formatter\20.4.0\html-formatter-20.4.0.jar, C:\Users\USUARIO\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar, C:\Users\USUARIO\.m2\repository\io\cucumber\ci-environment\10.0.0\ci-environment-10.0.0.jar, C:\Users\USUARIO\.m2\repository\io\cucumber\cucumber-java\7.15.0\cucumber-java-7.15.0.jar, C:\Users\USUARIO\.m2\repository\io\cucumber\cucumber-junit\7.15.0\cucumber-junit-7.15.0.jar, C:\Users\USUARIO\.m2\repository\org\apache\commons\commons-csv\1.5\commons-csv-1.5.jar, C:\Users\USUARIO\.m2\repository\net\serenity-bdd\serenity-screenplay\4.1.0\serenity-screenplay-4.1.0.jar, C:\Users\USUARIO\.m2\repository\org\seleniumhq\selenium\selenium-java\4.15.0\selenium-java-4.15.0.jar, C:\Users\USUARIO\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v117\4.15.0\selenium-devtools-v117-4.15.0.jar, C:\Users\USUARIO\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v118\4.15.0\selenium-devtools-v118-4.15.0.jar, C:\Users\USUARIO\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v119\4.15.0\selenium-devtools-v119-4.15.0.jar, C:\Users\USUARIO\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.15.0\selenium-devtools-v85-4.15.0.jar, C:\Users\USUARIO\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.15.0\selenium-remote-driver-4.15.0.jar, C:\Users\USUARIO\.m2\repository\io\opentelemetry\opentelemetry-api\1.28.0\opentelemetry-api-1.28.0.jar, C:\Users\USUARIO\.m2\repository\io\opentelemetry\opentelemetry-context\1.28.0\opentelemetry-context-1.28.0.jar, C:\Users\USUARIO\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.28.0\opentelemetry-exporter-logging-1.28.0.jar, C:\Users\USUARIO\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.28.0\opentelemetry-sdk-metrics-1.28.0.jar, C:\Users\USUARIO\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.28.0-alpha\opentelemetry-extension-incubator-1.28.0-alpha.jar, C:\Users\USUARIO\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.28.0\opentelemetry-sdk-logs-1.28.0.jar, C:\Users\USUARIO\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.28.0\opentelemetry-sdk-common-1.28.0.jar, C:\Users\USUARIO\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.28.0\opentelemetry-sdk-extension-autoconfigure-spi-1.28.0.jar, C:\Users\USUARIO\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.28.0\opentelemetry-sdk-extension-autoconfigure-1.28.0.jar, C:\Users\USUARIO\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.28.0-alpha\opentelemetry-api-events-1.28.0-alpha.jar, C:\Users\USUARIO\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.28.0\opentelemetry-sdk-trace-1.28.0.jar, C:\Users\USUARIO\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.28.0\opentelemetry-sdk-1.28.0.jar, C:\Users\USUARIO\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.28.0-alpha\opentelemetry-semconv-1.28.0-alpha.jar, C:\Users\USUARIO\.m2\repository\org\seleniumhq\selenium\selenium-os\4.15.0\selenium-os-4.15.0.jar, C:\Users\USUARIO\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar, C:\Users\USUARIO\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.15.0\selenium-safari-driver-4.15.0.jar, C:\Users\USUARIO\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.0\junit-jupiter-api-5.10.0.jar, C:\Users\USUARIO\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar, C:\Users\USUARIO\.m2\repository\org\junit\platform\junit-platform-commons\1.10.0\junit-platform-commons-1.10.0.jar, C:\Users\USUARIO\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar, C:\Users\USUARIO\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.0\junit-jupiter-engine-5.10.0.jar, C:\Users\USUARIO\.m2\repository\org\junit\platform\junit-platform-engine\1.10.0\junit-platform-engine-1.10.0.jar, C:\Users\USUARIO\.m2\repository\org\junit\platform\junit-platform-suite\1.10.0\junit-platform-suite-1.10.0.jar, C:\Users\USUARIO\.m2\repository\org\junit\platform\junit-platform-suite-api\1.10.0\junit-platform-suite-api-1.10.0.jar, C:\Users\USUARIO\.m2\repository\org\junit\platform\junit-platform-suite-engine\1.10.0\junit-platform-suite-engine-1.10.0.jar, C:\Users\USUARIO\.m2\repository\org\junit\platform\junit-platform-suite-commons\1.10.0\junit-platform-suite-commons-1.10.0.jar, C:\Users\USUARIO\.m2\repository\org\junit\platform\junit-platform-launcher\1.10.0\junit-platform-launcher-1.10.0.jar, C:\Users\USUARIO\.m2\repository\org\slf4j\slf4j-simple\2.0.9\slf4j-simple-2.0.9.jar, C:\Users\USUARIO\.m2\repository\org\slf4j\slf4j-api\2.0.9\slf4j-api-2.0.9.jar]
+[DEBUG]   (f) useIncrementalCompilation = true
+[DEBUG]   (f) useModulePath = true
+[DEBUG]   (f) verbose = false
+[DEBUG] -- end configuration --
+[DEBUG] Using compiler 'javac'.
+[DEBUG] CompilerReuseStrategy: reuseCreated
+[DEBUG] useIncrementalCompilation enabled
+[INFO] 	Stale source detected: C:\Users\USUARIO\saucedemo-automation\src\test\java\com\saucedemo\tasks\RemoveFromCart.java
+[INFO] 	Stale source detected: C:\Users\USUARIO\saucedemo-automation\src\test\java\com\saucedemo\stepdefinitions\CartStepDefinitions.java
+[INFO] 	Stale source detected: C:\Users\USUARIO\saucedemo-automation\src\test\java\com\saucedemo\tasks\Login.java
+[INFO] 	Stale source detected: C:\Users\USUARIO\saucedemo-automation\src\test\java\com\saucedemo\questions\TheCartBadge.java
+[INFO] 	Stale source detected: C:\Users\USUARIO\saucedemo-automation\src\test\java\com\saucedemo\userinterfaces\CartPage.java
+[INFO] 	Stale source detected: C:\Users\USUARIO\saucedemo-automation\src\test\java\com\saucedemo\userinterfaces\LoginPage.java
+[INFO] 	Stale source detected: C:\Users\USUARIO\saucedemo-automation\src\test\java\com\saucedemo\utils\ConfigReader.java
+[INFO] 	Stale source detected: C:\Users\USUARIO\saucedemo-automation\src\test\java\com\saucedemo\userinterfaces\CheckoutPage.java
+[INFO] 	Stale source detected: C:\Users\USUARIO\saucedemo-automation\src\test\java\com\saucedemo\userinterfaces\InventoryPage.java
+[INFO] 	Stale source detected: C:\Users\USUARIO\saucedemo-automation\src\test\java\com\saucedemo\stepdefinitions\LoginStepDefinitions.java
+[INFO] 	Stale source detected: C:\Users\USUARIO\saucedemo-automation\src\test\java\com\saucedemo\questions\TheConfirmationMessage.java
+[INFO] 	Stale source detected: C:\Users\USUARIO\saucedemo-automation\src\test\java\com\saucedemo\runners\CucumberTestSuiteTest.java
+[INFO] 	Stale source detected: C:\Users\USUARIO\saucedemo-automation\src\test\java\com\saucedemo\questions\TheInventoryTitle.java
+[INFO] 	Stale source detected: C:\Users\USUARIO\saucedemo-automation\src\test\java\com\saucedemo\tasks\AddToCart.java
+[INFO] 	Stale source detected: C:\Users\USUARIO\saucedemo-automation\src\test\java\com\saucedemo\tasks\ProceedToCheckout.java
+[INFO] 	Stale source detected: C:\Users\USUARIO\saucedemo-automation\src\test\java\com\saucedemo\questions\TheErrorMessage.java
+[INFO] 	Input tree files (+): C:\Users\USUARIO\saucedemo-automation\src\test\java\com\saucedemo\questions\TheCartBadge.java
+[INFO] 	Input tree files (+): C:\Users\USUARIO\saucedemo-automation\src\test\java\com\saucedemo\questions\TheConfirmationMessage.java
+[INFO] 	Input tree files (+): C:\Users\USUARIO\saucedemo-automation\src\test\java\com\saucedemo\questions\TheErrorMessage.java
+[INFO] 	Input tree files (+): C:\Users\USUARIO\saucedemo-automation\src\test\java\com\saucedemo\questions\TheInventoryTitle.java
+[INFO] 	Input tree files (+): C:\Users\USUARIO\saucedemo-automation\src\test\java\com\saucedemo\runners\CucumberTestSuiteTest.java
+[INFO] 	Input tree files (+): C:\Users\USUARIO\saucedemo-automation\src\test\java\com\saucedemo\stepdefinitions\CartStepDefinitions.java
+[INFO] 	Input tree files (+): C:\Users\USUARIO\saucedemo-automation\src\test\java\com\saucedemo\stepdefinitions\LoginStepDefinitions.java
+[INFO] 	Input tree files (+): C:\Users\USUARIO\saucedemo-automation\src\test\java\com\saucedemo\tasks\AddToCart.java
+[INFO] 	Input tree files (+): C:\Users\USUARIO\saucedemo-automation\src\test\java\com\saucedemo\tasks\Login.java
+[INFO] 	Input tree files (+): C:\Users\USUARIO\saucedemo-automation\src\test\java\com\saucedemo\tasks\ProceedToCheckout.java
+[INFO] 	Input tree files (+): C:\Users\USUARIO\saucedemo-automation\src\test\java\com\saucedemo\tasks\RemoveFromCart.java
+[INFO] 	Input tree files (+): C:\Users\USUARIO\saucedemo-automation\src\test\java\com\saucedemo\userinterfaces\CartPage.java
+[INFO] 	Input tree files (+): C:\Users\USUARIO\saucedemo-automation\src\test\java\com\saucedemo\userinterfaces\CheckoutPage.java
+[INFO] 	Input tree files (+): C:\Users\USUARIO\saucedemo-automation\src\test\java\com\saucedemo\userinterfaces\InventoryPage.java
+[INFO] 	Input tree files (+): C:\Users\USUARIO\saucedemo-automation\src\test\java\com\saucedemo\userinterfaces\LoginPage.java
+[INFO] 	Input tree files (+): C:\Users\USUARIO\saucedemo-automation\src\test\java\com\saucedemo\utils\ConfigReader.java
+[INFO] Recompiling the module because of changed source code.
+[DEBUG] Classpath:
+[DEBUG]  C:\Users\USUARIO\saucedemo-automation\target\test-classes
+[DEBUG]  C:\Users\USUARIO\saucedemo-automation\target\classes
+[DEBUG]  C:\Users\USUARIO\.m2\repository\net\serenity-bdd\serenity-core\4.1.0\serenity-core-4.1.0.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\net\serenity-bdd\serenity-model\4.1.0\serenity-model-4.1.0.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\org\apache\commons\commons-text\1.11.0\commons-text-1.11.0.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\commons-net\commons-net\3.10.0\commons-net-3.10.0.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\com\google\guava\guava\32.1.3-jre\guava-32.1.3-jre.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\org\checkerframework\checker-qual\3.37.0\checker-qual-3.37.0.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\com\google\errorprone\error_prone_annotations\2.21.1\error_prone_annotations-2.21.1.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\org\jsoup\jsoup\1.15.4\jsoup-1.15.4.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\com\thoughtworks\xstream\xstream\1.4.20\xstream-1.4.20.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\io\github\x-stream\mxparser\1.2.2\mxparser-1.2.2.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\xmlpull\xmlpull\1.1.3.1\xmlpull-1.1.3.1.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\com\typesafe\config\1.4.3\config-1.4.3.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\org\imgscalr\imgscalr-lib\4.2\imgscalr-lib-4.2.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\org\awaitility\awaitility\4.2.0\awaitility-4.2.0.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\io\github\classgraph\classgraph\4.8.157\classgraph-4.8.157.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\com\github\ben-manes\caffeine\caffeine\2.9.2\caffeine-2.9.2.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\org\ehcache\ehcache\3.10.8\ehcache-3.10.8.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\javax\cache\cache-api\1.1.0\cache-api-1.1.0.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\net\sourceforge\jexcelapi\jxl\2.6.12\jxl-2.6.12.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\net\bytebuddy\byte-buddy\1.14.10\byte-buddy-1.14.10.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\net\bytebuddy\byte-buddy-agent\1.14.10\byte-buddy-agent-1.14.10.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-all\0.64.8\flexmark-all-0.64.8.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark\0.64.8\flexmark-0.64.8.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-ext-abbreviation\0.64.8\flexmark-ext-abbreviation-0.64.8.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-ext-admonition\0.64.8\flexmark-ext-admonition-0.64.8.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-ext-anchorlink\0.64.8\flexmark-ext-anchorlink-0.64.8.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-ext-aside\0.64.8\flexmark-ext-aside-0.64.8.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-ext-attributes\0.64.8\flexmark-ext-attributes-0.64.8.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-ext-autolink\0.64.8\flexmark-ext-autolink-0.64.8.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\org\nibor\autolink\autolink\0.6.0\autolink-0.6.0.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-ext-definition\0.64.8\flexmark-ext-definition-0.64.8.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-ext-emoji\0.64.8\flexmark-ext-emoji-0.64.8.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-ext-enumerated-reference\0.64.8\flexmark-ext-enumerated-reference-0.64.8.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-ext-escaped-character\0.64.8\flexmark-ext-escaped-character-0.64.8.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-ext-footnotes\0.64.8\flexmark-ext-footnotes-0.64.8.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-issues\0.64.8\flexmark-ext-gfm-issues-0.64.8.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-strikethrough\0.64.8\flexmark-ext-gfm-strikethrough-0.64.8.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-tasklist\0.64.8\flexmark-ext-gfm-tasklist-0.64.8.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-users\0.64.8\flexmark-ext-gfm-users-0.64.8.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-ext-gitlab\0.64.8\flexmark-ext-gitlab-0.64.8.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-ext-jekyll-front-matter\0.64.8\flexmark-ext-jekyll-front-matter-0.64.8.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-ext-jekyll-tag\0.64.8\flexmark-ext-jekyll-tag-0.64.8.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-ext-media-tags\0.64.8\flexmark-ext-media-tags-0.64.8.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-ext-macros\0.64.8\flexmark-ext-macros-0.64.8.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-ext-ins\0.64.8\flexmark-ext-ins-0.64.8.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-ext-xwiki-macros\0.64.8\flexmark-ext-xwiki-macros-0.64.8.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-ext-superscript\0.64.8\flexmark-ext-superscript-0.64.8.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-ext-toc\0.64.8\flexmark-ext-toc-0.64.8.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-ext-typographic\0.64.8\flexmark-ext-typographic-0.64.8.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-ext-wikilink\0.64.8\flexmark-ext-wikilink-0.64.8.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-ext-yaml-front-matter\0.64.8\flexmark-ext-yaml-front-matter-0.64.8.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-ext-youtube-embedded\0.64.8\flexmark-ext-youtube-embedded-0.64.8.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-html2md-converter\0.64.8\flexmark-html2md-converter-0.64.8.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-jira-converter\0.64.8\flexmark-jira-converter-0.64.8.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-pdf-converter\0.64.8\flexmark-pdf-converter-0.64.8.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\com\openhtmltopdf\openhtmltopdf-core\1.0.10\openhtmltopdf-core-1.0.10.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\com\openhtmltopdf\openhtmltopdf-pdfbox\1.0.10\openhtmltopdf-pdfbox-1.0.10.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\org\apache\pdfbox\pdfbox\2.0.24\pdfbox-2.0.24.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\org\apache\pdfbox\fontbox\2.0.24\fontbox-2.0.24.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\org\apache\pdfbox\xmpbox\2.0.24\xmpbox-2.0.24.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\de\rototor\pdfbox\graphics2d\0.32\graphics2d-0.32.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\com\openhtmltopdf\openhtmltopdf-rtl-support\1.0.10\openhtmltopdf-rtl-support-1.0.10.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-profile-pegdown\0.64.8\flexmark-profile-pegdown-0.64.8.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-util-ast\0.64.8\flexmark-util-ast-0.64.8.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\org\jetbrains\annotations\24.0.1\annotations-24.0.1.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-util-builder\0.64.8\flexmark-util-builder-0.64.8.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-util-collection\0.64.8\flexmark-util-collection-0.64.8.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-util-data\0.64.8\flexmark-util-data-0.64.8.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-util-dependency\0.64.8\flexmark-util-dependency-0.64.8.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-util-format\0.64.8\flexmark-util-format-0.64.8.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-util-html\0.64.8\flexmark-util-html-0.64.8.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-util-misc\0.64.8\flexmark-util-misc-0.64.8.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-util-options\0.64.8\flexmark-util-options-0.64.8.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-util-sequence\0.64.8\flexmark-util-sequence-0.64.8.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-util-visitor\0.64.8\flexmark-util-visitor-0.64.8.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-youtrack-converter\0.64.8\flexmark-youtrack-converter-0.64.8.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-ext-resizable-image\0.64.8\flexmark-ext-resizable-image-0.64.8.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-ext-tables\0.64.8\flexmark-ext-tables-0.64.8.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-util\0.64.8\flexmark-util-0.64.8.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\net\serenity-bdd\serenity-reports\4.1.0\serenity-reports-4.1.0.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\net\serenity-bdd\serenity-stats\4.1.0\serenity-stats-4.1.0.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib\1.9.0\kotlin-stdlib-1.9.0.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-common\1.9.0\kotlin-stdlib-common-1.9.0.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\net\serenity-bdd\serenity-reports-configuration\4.1.0\serenity-reports-configuration-4.1.0.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\com\ibm\icu\icu4j\72.1\icu4j-72.1.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\es\nitaur\markdown\txtmark\0.16\txtmark-0.16.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\net\serenity-bdd\serenity-report-resources\4.1.0\serenity-report-resources-4.1.0.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.16.0\jackson-core-2.16.0.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.16.0\jackson-databind-2.16.0.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.16.0\jackson-annotations-2.16.0.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\commons-codec\commons-codec\1.16.0\commons-codec-1.16.0.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\commons-io\commons-io\2.15.1\commons-io-2.15.1.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\org\seleniumhq\selenium\selenium-api\4.16.1\selenium-api-4.16.1.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\org\seleniumhq\selenium\selenium-support\4.16.1\selenium-support-4.16.1.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\org\seleniumhq\selenium\selenium-json\4.16.1\selenium-json-4.16.1.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.16.1\selenium-chrome-driver-4.16.1.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.16.1\selenium-chromium-driver-4.16.1.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.16.1\selenium-manager-4.16.1.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.16.1\selenium-firefox-driver-4.16.1.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\org\seleniumhq\selenium\selenium-http\4.16.1\selenium-http-4.16.1.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.16.1\selenium-edge-driver-4.16.1.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.16.1\selenium-ie-driver-4.16.1.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\org\htmlunit\htmlunit\3.9.0\htmlunit-3.9.0.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\org\apache\httpcomponents\httpmime\4.5.14\httpmime-4.5.14.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\org\htmlunit\htmlunit-core-js\3.9.0\htmlunit-core-js-3.9.0.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\org\htmlunit\neko-htmlunit\3.9.0\neko-htmlunit-3.9.0.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\org\htmlunit\htmlunit-cssparser\3.9.0\htmlunit-cssparser-3.9.0.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\org\htmlunit\htmlunit-xpath\3.9.0\htmlunit-xpath-3.9.0.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\org\htmlunit\htmlunit-csp\3.9.0\htmlunit-csp-3.9.0.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\org\eclipse\jetty\websocket\websocket-client\9.4.53.v20231009\websocket-client-9.4.53.v20231009.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\org\eclipse\jetty\jetty-client\9.4.53.v20231009\jetty-client-9.4.53.v20231009.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\org\eclipse\jetty\jetty-http\9.4.53.v20231009\jetty-http-9.4.53.v20231009.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\org\eclipse\jetty\jetty-util\9.4.53.v20231009\jetty-util-9.4.53.v20231009.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\org\eclipse\jetty\jetty-io\9.4.53.v20231009\jetty-io-9.4.53.v20231009.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\org\eclipse\jetty\websocket\websocket-common\9.4.53.v20231009\websocket-common-9.4.53.v20231009.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\org\eclipse\jetty\websocket\websocket-api\9.4.53.v20231009\websocket-api-9.4.53.v20231009.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\org\seleniumhq\selenium\htmlunit3-driver\4.16.0\htmlunit3-driver-4.16.0.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\io\appium\java-client\9.0.0\java-client-9.0.0.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\org\apache\groovy\groovy\4.0.13\groovy-4.0.13.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\net\sf\opencsv\opencsv\2.1\opencsv-2.1.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\org\apache\commons\commons-compress\1.25.0\commons-compress-1.25.0.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\org\fluentlenium\fluentlenium-core\0.10.2\fluentlenium-core-0.10.2.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\com\jhlabs\filters\2.0.235\filters-2.0.235.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\com\paulhammant\ngwebdriver\1.1.6\ngwebdriver-1.1.6.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\joda-time\joda-time\2.12.5\joda-time-2.12.5.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\com\google\jimfs\jimfs\1.3.0\jimfs-1.3.0.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\org\mockito\mockito-core\3.3.3\mockito-core-3.3.3.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\javax\xml\bind\jaxb-api\2.3.1\jaxb-api-2.3.1.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\javax\activation\javax.activation-api\1.2.0\javax.activation-api-1.2.0.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\com\sun\xml\bind\jaxb-core\2.3.0.1\jaxb-core-2.3.0.1.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\javax\activation\activation\1.1.1\activation-1.1.1.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\net\serenity-bdd\serenity-cucumber\4.1.0\serenity-cucumber-4.1.0.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\net\serenity-bdd\serenity-screenplay-webdriver\4.1.0\serenity-screenplay-webdriver-4.1.0.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\io\cucumber\cucumber-core\7.15.0\cucumber-core-7.15.0.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\io\cucumber\cucumber-gherkin\7.15.0\cucumber-gherkin-7.15.0.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.15.0\cucumber-gherkin-messages-7.15.0.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\io\cucumber\tag-expressions\6.0.0\tag-expressions-6.0.0.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\io\cucumber\cucumber-expressions\17.0.1\cucumber-expressions-17.0.1.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\io\cucumber\datatable\7.15.0\datatable-7.15.0.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\io\cucumber\cucumber-plugin\7.15.0\cucumber-plugin-7.15.0.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\io\cucumber\docstring\7.15.0\docstring-7.15.0.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\io\cucumber\html-formatter\20.4.0\html-formatter-20.4.0.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\io\cucumber\ci-environment\10.0.0\ci-environment-10.0.0.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\io\cucumber\cucumber-java\7.15.0\cucumber-java-7.15.0.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\io\cucumber\cucumber-junit\7.15.0\cucumber-junit-7.15.0.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\org\apache\commons\commons-csv\1.5\commons-csv-1.5.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\net\serenity-bdd\serenity-screenplay\4.1.0\serenity-screenplay-4.1.0.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\org\seleniumhq\selenium\selenium-java\4.15.0\selenium-java-4.15.0.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v117\4.15.0\selenium-devtools-v117-4.15.0.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v118\4.15.0\selenium-devtools-v118-4.15.0.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v119\4.15.0\selenium-devtools-v119-4.15.0.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.15.0\selenium-devtools-v85-4.15.0.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.15.0\selenium-remote-driver-4.15.0.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\io\opentelemetry\opentelemetry-api\1.28.0\opentelemetry-api-1.28.0.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\io\opentelemetry\opentelemetry-context\1.28.0\opentelemetry-context-1.28.0.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.28.0\opentelemetry-exporter-logging-1.28.0.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.28.0\opentelemetry-sdk-metrics-1.28.0.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.28.0-alpha\opentelemetry-extension-incubator-1.28.0-alpha.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.28.0\opentelemetry-sdk-logs-1.28.0.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.28.0\opentelemetry-sdk-common-1.28.0.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.28.0\opentelemetry-sdk-extension-autoconfigure-spi-1.28.0.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.28.0\opentelemetry-sdk-extension-autoconfigure-1.28.0.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.28.0-alpha\opentelemetry-api-events-1.28.0-alpha.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.28.0\opentelemetry-sdk-trace-1.28.0.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.28.0\opentelemetry-sdk-1.28.0.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.28.0-alpha\opentelemetry-semconv-1.28.0-alpha.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\org\seleniumhq\selenium\selenium-os\4.15.0\selenium-os-4.15.0.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.15.0\selenium-safari-driver-4.15.0.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.0\junit-jupiter-api-5.10.0.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\org\junit\platform\junit-platform-commons\1.10.0\junit-platform-commons-1.10.0.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.0\junit-jupiter-engine-5.10.0.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\org\junit\platform\junit-platform-engine\1.10.0\junit-platform-engine-1.10.0.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\org\junit\platform\junit-platform-suite\1.10.0\junit-platform-suite-1.10.0.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\org\junit\platform\junit-platform-suite-api\1.10.0\junit-platform-suite-api-1.10.0.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\org\junit\platform\junit-platform-suite-engine\1.10.0\junit-platform-suite-engine-1.10.0.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\org\junit\platform\junit-platform-suite-commons\1.10.0\junit-platform-suite-commons-1.10.0.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\org\junit\platform\junit-platform-launcher\1.10.0\junit-platform-launcher-1.10.0.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\org\slf4j\slf4j-simple\2.0.9\slf4j-simple-2.0.9.jar
+[DEBUG]  C:\Users\USUARIO\.m2\repository\org\slf4j\slf4j-api\2.0.9\slf4j-api-2.0.9.jar
+[DEBUG] Source roots:
+[DEBUG]  C:\Users\USUARIO\saucedemo-automation\src\test\java
+[DEBUG] Command line options:
+[DEBUG] -d C:\Users\USUARIO\saucedemo-automation\target\test-classes -classpath C:\Users\USUARIO\saucedemo-automation\target\test-classes;C:\Users\USUARIO\saucedemo-automation\target\classes;C:\Users\USUARIO\.m2\repository\net\serenity-bdd\serenity-core\4.1.0\serenity-core-4.1.0.jar;C:\Users\USUARIO\.m2\repository\net\serenity-bdd\serenity-model\4.1.0\serenity-model-4.1.0.jar;C:\Users\USUARIO\.m2\repository\org\apache\commons\commons-text\1.11.0\commons-text-1.11.0.jar;C:\Users\USUARIO\.m2\repository\commons-net\commons-net\3.10.0\commons-net-3.10.0.jar;C:\Users\USUARIO\.m2\repository\com\google\guava\guava\32.1.3-jre\guava-32.1.3-jre.jar;C:\Users\USUARIO\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\USUARIO\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\USUARIO\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\USUARIO\.m2\repository\org\checkerframework\checker-qual\3.37.0\checker-qual-3.37.0.jar;C:\Users\USUARIO\.m2\repository\com\google\errorprone\error_prone_annotations\2.21.1\error_prone_annotations-2.21.1.jar;C:\Users\USUARIO\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\USUARIO\.m2\repository\org\jsoup\jsoup\1.15.4\jsoup-1.15.4.jar;C:\Users\USUARIO\.m2\repository\com\thoughtworks\xstream\xstream\1.4.20\xstream-1.4.20.jar;C:\Users\USUARIO\.m2\repository\io\github\x-stream\mxparser\1.2.2\mxparser-1.2.2.jar;C:\Users\USUARIO\.m2\repository\xmlpull\xmlpull\1.1.3.1\xmlpull-1.1.3.1.jar;C:\Users\USUARIO\.m2\repository\com\typesafe\config\1.4.3\config-1.4.3.jar;C:\Users\USUARIO\.m2\repository\org\imgscalr\imgscalr-lib\4.2\imgscalr-lib-4.2.jar;C:\Users\USUARIO\.m2\repository\org\awaitility\awaitility\4.2.0\awaitility-4.2.0.jar;C:\Users\USUARIO\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\USUARIO\.m2\repository\io\github\classgraph\classgraph\4.8.157\classgraph-4.8.157.jar;C:\Users\USUARIO\.m2\repository\com\github\ben-manes\caffeine\caffeine\2.9.2\caffeine-2.9.2.jar;C:\Users\USUARIO\.m2\repository\org\ehcache\ehcache\3.10.8\ehcache-3.10.8.jar;C:\Users\USUARIO\.m2\repository\javax\cache\cache-api\1.1.0\cache-api-1.1.0.jar;C:\Users\USUARIO\.m2\repository\net\sourceforge\jexcelapi\jxl\2.6.12\jxl-2.6.12.jar;C:\Users\USUARIO\.m2\repository\net\bytebuddy\byte-buddy\1.14.10\byte-buddy-1.14.10.jar;C:\Users\USUARIO\.m2\repository\net\bytebuddy\byte-buddy-agent\1.14.10\byte-buddy-agent-1.14.10.jar;C:\Users\USUARIO\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-all\0.64.8\flexmark-all-0.64.8.jar;C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark\0.64.8\flexmark-0.64.8.jar;C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-ext-abbreviation\0.64.8\flexmark-ext-abbreviation-0.64.8.jar;C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-ext-admonition\0.64.8\flexmark-ext-admonition-0.64.8.jar;C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-ext-anchorlink\0.64.8\flexmark-ext-anchorlink-0.64.8.jar;C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-ext-aside\0.64.8\flexmark-ext-aside-0.64.8.jar;C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-ext-attributes\0.64.8\flexmark-ext-attributes-0.64.8.jar;C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-ext-autolink\0.64.8\flexmark-ext-autolink-0.64.8.jar;C:\Users\USUARIO\.m2\repository\org\nibor\autolink\autolink\0.6.0\autolink-0.6.0.jar;C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-ext-definition\0.64.8\flexmark-ext-definition-0.64.8.jar;C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-ext-emoji\0.64.8\flexmark-ext-emoji-0.64.8.jar;C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-ext-enumerated-reference\0.64.8\flexmark-ext-enumerated-reference-0.64.8.jar;C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-ext-escaped-character\0.64.8\flexmark-ext-escaped-character-0.64.8.jar;C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-ext-footnotes\0.64.8\flexmark-ext-footnotes-0.64.8.jar;C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-issues\0.64.8\flexmark-ext-gfm-issues-0.64.8.jar;C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-strikethrough\0.64.8\flexmark-ext-gfm-strikethrough-0.64.8.jar;C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-tasklist\0.64.8\flexmark-ext-gfm-tasklist-0.64.8.jar;C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-users\0.64.8\flexmark-ext-gfm-users-0.64.8.jar;C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-ext-gitlab\0.64.8\flexmark-ext-gitlab-0.64.8.jar;C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-ext-jekyll-front-matter\0.64.8\flexmark-ext-jekyll-front-matter-0.64.8.jar;C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-ext-jekyll-tag\0.64.8\flexmark-ext-jekyll-tag-0.64.8.jar;C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-ext-media-tags\0.64.8\flexmark-ext-media-tags-0.64.8.jar;C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-ext-macros\0.64.8\flexmark-ext-macros-0.64.8.jar;C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-ext-ins\0.64.8\flexmark-ext-ins-0.64.8.jar;C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-ext-xwiki-macros\0.64.8\flexmark-ext-xwiki-macros-0.64.8.jar;C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-ext-superscript\0.64.8\flexmark-ext-superscript-0.64.8.jar;C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-ext-toc\0.64.8\flexmark-ext-toc-0.64.8.jar;C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-ext-typographic\0.64.8\flexmark-ext-typographic-0.64.8.jar;C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-ext-wikilink\0.64.8\flexmark-ext-wikilink-0.64.8.jar;C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-ext-yaml-front-matter\0.64.8\flexmark-ext-yaml-front-matter-0.64.8.jar;C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-ext-youtube-embedded\0.64.8\flexmark-ext-youtube-embedded-0.64.8.jar;C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-html2md-converter\0.64.8\flexmark-html2md-converter-0.64.8.jar;C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-jira-converter\0.64.8\flexmark-jira-converter-0.64.8.jar;C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-pdf-converter\0.64.8\flexmark-pdf-converter-0.64.8.jar;C:\Users\USUARIO\.m2\repository\com\openhtmltopdf\openhtmltopdf-core\1.0.10\openhtmltopdf-core-1.0.10.jar;C:\Users\USUARIO\.m2\repository\com\openhtmltopdf\openhtmltopdf-pdfbox\1.0.10\openhtmltopdf-pdfbox-1.0.10.jar;C:\Users\USUARIO\.m2\repository\org\apache\pdfbox\pdfbox\2.0.24\pdfbox-2.0.24.jar;C:\Users\USUARIO\.m2\repository\org\apache\pdfbox\fontbox\2.0.24\fontbox-2.0.24.jar;C:\Users\USUARIO\.m2\repository\org\apache\pdfbox\xmpbox\2.0.24\xmpbox-2.0.24.jar;C:\Users\USUARIO\.m2\repository\de\rototor\pdfbox\graphics2d\0.32\graphics2d-0.32.jar;C:\Users\USUARIO\.m2\repository\com\openhtmltopdf\openhtmltopdf-rtl-support\1.0.10\openhtmltopdf-rtl-support-1.0.10.jar;C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-profile-pegdown\0.64.8\flexmark-profile-pegdown-0.64.8.jar;C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-util-ast\0.64.8\flexmark-util-ast-0.64.8.jar;C:\Users\USUARIO\.m2\repository\org\jetbrains\annotations\24.0.1\annotations-24.0.1.jar;C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-util-builder\0.64.8\flexmark-util-builder-0.64.8.jar;C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-util-collection\0.64.8\flexmark-util-collection-0.64.8.jar;C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-util-data\0.64.8\flexmark-util-data-0.64.8.jar;C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-util-dependency\0.64.8\flexmark-util-dependency-0.64.8.jar;C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-util-format\0.64.8\flexmark-util-format-0.64.8.jar;C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-util-html\0.64.8\flexmark-util-html-0.64.8.jar;C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-util-misc\0.64.8\flexmark-util-misc-0.64.8.jar;C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-util-options\0.64.8\flexmark-util-options-0.64.8.jar;C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-util-sequence\0.64.8\flexmark-util-sequence-0.64.8.jar;C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-util-visitor\0.64.8\flexmark-util-visitor-0.64.8.jar;C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-youtrack-converter\0.64.8\flexmark-youtrack-converter-0.64.8.jar;C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-ext-resizable-image\0.64.8\flexmark-ext-resizable-image-0.64.8.jar;C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-ext-tables\0.64.8\flexmark-ext-tables-0.64.8.jar;C:\Users\USUARIO\.m2\repository\com\vladsch\flexmark\flexmark-util\0.64.8\flexmark-util-0.64.8.jar;C:\Users\USUARIO\.m2\repository\net\serenity-bdd\serenity-reports\4.1.0\serenity-reports-4.1.0.jar;C:\Users\USUARIO\.m2\repository\net\serenity-bdd\serenity-stats\4.1.0\serenity-stats-4.1.0.jar;C:\Users\USUARIO\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib\1.9.0\kotlin-stdlib-1.9.0.jar;C:\Users\USUARIO\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-common\1.9.0\kotlin-stdlib-common-1.9.0.jar;C:\Users\USUARIO\.m2\repository\net\serenity-bdd\serenity-reports-configuration\4.1.0\serenity-reports-configuration-4.1.0.jar;C:\Users\USUARIO\.m2\repository\com\ibm\icu\icu4j\72.1\icu4j-72.1.jar;C:\Users\USUARIO\.m2\repository\es\nitaur\markdown\txtmark\0.16\txtmark-0.16.jar;C:\Users\USUARIO\.m2\repository\net\serenity-bdd\serenity-report-resources\4.1.0\serenity-report-resources-4.1.0.jar;C:\Users\USUARIO\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\USUARIO\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.16.0\jackson-core-2.16.0.jar;C:\Users\USUARIO\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.16.0\jackson-databind-2.16.0.jar;C:\Users\USUARIO\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.16.0\jackson-annotations-2.16.0.jar;C:\Users\USUARIO\.m2\repository\commons-codec\commons-codec\1.16.0\commons-codec-1.16.0.jar;C:\Users\USUARIO\.m2\repository\commons-io\commons-io\2.15.1\commons-io-2.15.1.jar;C:\Users\USUARIO\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\USUARIO\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\USUARIO\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\USUARIO\.m2\repository\org\seleniumhq\selenium\selenium-api\4.16.1\selenium-api-4.16.1.jar;C:\Users\USUARIO\.m2\repository\org\seleniumhq\selenium\selenium-support\4.16.1\selenium-support-4.16.1.jar;C:\Users\USUARIO\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\USUARIO\.m2\repository\org\seleniumhq\selenium\selenium-json\4.16.1\selenium-json-4.16.1.jar;C:\Users\USUARIO\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.16.1\selenium-chrome-driver-4.16.1.jar;C:\Users\USUARIO\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.16.1\selenium-chromium-driver-4.16.1.jar;C:\Users\USUARIO\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.16.1\selenium-manager-4.16.1.jar;C:\Users\USUARIO\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.16.1\selenium-firefox-driver-4.16.1.jar;C:\Users\USUARIO\.m2\repository\org\seleniumhq\selenium\selenium-http\4.16.1\selenium-http-4.16.1.jar;C:\Users\USUARIO\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\USUARIO\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.16.1\selenium-edge-driver-4.16.1.jar;C:\Users\USUARIO\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.16.1\selenium-ie-driver-4.16.1.jar;C:\Users\USUARIO\.m2\repository\org\htmlunit\htmlunit\3.9.0\htmlunit-3.9.0.jar;C:\Users\USUARIO\.m2\repository\org\apache\httpcomponents\httpmime\4.5.14\httpmime-4.5.14.jar;C:\Users\USUARIO\.m2\repository\org\htmlunit\htmlunit-core-js\3.9.0\htmlunit-core-js-3.9.0.jar;C:\Users\USUARIO\.m2\repository\org\htmlunit\neko-htmlunit\3.9.0\neko-htmlunit-3.9.0.jar;C:\Users\USUARIO\.m2\repository\org\htmlunit\htmlunit-cssparser\3.9.0\htmlunit-cssparser-3.9.0.jar;C:\Users\USUARIO\.m2\repository\org\htmlunit\htmlunit-xpath\3.9.0\htmlunit-xpath-3.9.0.jar;C:\Users\USUARIO\.m2\repository\org\htmlunit\htmlunit-csp\3.9.0\htmlunit-csp-3.9.0.jar;C:\Users\USUARIO\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\USUARIO\.m2\repository\org\eclipse\jetty\websocket\websocket-client\9.4.53.v20231009\websocket-client-9.4.53.v20231009.jar;C:\Users\USUARIO\.m2\repository\org\eclipse\jetty\jetty-client\9.4.53.v20231009\jetty-client-9.4.53.v20231009.jar;C:\Users\USUARIO\.m2\repository\org\eclipse\jetty\jetty-http\9.4.53.v20231009\jetty-http-9.4.53.v20231009.jar;C:\Users\USUARIO\.m2\repository\org\eclipse\jetty\jetty-util\9.4.53.v20231009\jetty-util-9.4.53.v20231009.jar;C:\Users\USUARIO\.m2\repository\org\eclipse\jetty\jetty-io\9.4.53.v20231009\jetty-io-9.4.53.v20231009.jar;C:\Users\USUARIO\.m2\repository\org\eclipse\jetty\websocket\websocket-common\9.4.53.v20231009\websocket-common-9.4.53.v20231009.jar;C:\Users\USUARIO\.m2\repository\org\eclipse\jetty\websocket\websocket-api\9.4.53.v20231009\websocket-api-9.4.53.v20231009.jar;C:\Users\USUARIO\.m2\repository\org\seleniumhq\selenium\htmlunit3-driver\4.16.0\htmlunit3-driver-4.16.0.jar;C:\Users\USUARIO\.m2\repository\io\appium\java-client\9.0.0\java-client-9.0.0.jar;C:\Users\USUARIO\.m2\repository\org\apache\groovy\groovy\4.0.13\groovy-4.0.13.jar;C:\Users\USUARIO\.m2\repository\net\sf\opencsv\opencsv\2.1\opencsv-2.1.jar;C:\Users\USUARIO\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar;C:\Users\USUARIO\.m2\repository\org\apache\commons\commons-compress\1.25.0\commons-compress-1.25.0.jar;C:\Users\USUARIO\.m2\repository\org\fluentlenium\fluentlenium-core\0.10.2\fluentlenium-core-0.10.2.jar;C:\Users\USUARIO\.m2\repository\com\jhlabs\filters\2.0.235\filters-2.0.235.jar;C:\Users\USUARIO\.m2\repository\com\paulhammant\ngwebdriver\1.1.6\ngwebdriver-1.1.6.jar;C:\Users\USUARIO\.m2\repository\joda-time\joda-time\2.12.5\joda-time-2.12.5.jar;C:\Users\USUARIO\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\USUARIO\.m2\repository\com\google\jimfs\jimfs\1.3.0\jimfs-1.3.0.jar;C:\Users\USUARIO\.m2\repository\org\mockito\mockito-core\3.3.3\mockito-core-3.3.3.jar;C:\Users\USUARIO\.m2\repository\javax\xml\bind\jaxb-api\2.3.1\jaxb-api-2.3.1.jar;C:\Users\USUARIO\.m2\repository\javax\activation\javax.activation-api\1.2.0\javax.activation-api-1.2.0.jar;C:\Users\USUARIO\.m2\repository\com\sun\xml\bind\jaxb-core\2.3.0.1\jaxb-core-2.3.0.1.jar;C:\Users\USUARIO\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar;C:\Users\USUARIO\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\USUARIO\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\USUARIO\.m2\repository\javax\activation\activation\1.1.1\activation-1.1.1.jar;C:\Users\USUARIO\.m2\repository\net\serenity-bdd\serenity-cucumber\4.1.0\serenity-cucumber-4.1.0.jar;C:\Users\USUARIO\.m2\repository\net\serenity-bdd\serenity-screenplay-webdriver\4.1.0\serenity-screenplay-webdriver-4.1.0.jar;C:\Users\USUARIO\.m2\repository\io\cucumber\cucumber-core\7.15.0\cucumber-core-7.15.0.jar;C:\Users\USUARIO\.m2\repository\io\cucumber\cucumber-gherkin\7.15.0\cucumber-gherkin-7.15.0.jar;C:\Users\USUARIO\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.15.0\cucumber-gherkin-messages-7.15.0.jar;C:\Users\USUARIO\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\USUARIO\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\USUARIO\.m2\repository\io\cucumber\tag-expressions\6.0.0\tag-expressions-6.0.0.jar;C:\Users\USUARIO\.m2\repository\io\cucumber\cucumber-expressions\17.0.1\cucumber-expressions-17.0.1.jar;C:\Users\USUARIO\.m2\repository\io\cucumber\datatable\7.15.0\datatable-7.15.0.jar;C:\Users\USUARIO\.m2\repository\io\cucumber\cucumber-plugin\7.15.0\cucumber-plugin-7.15.0.jar;C:\Users\USUARIO\.m2\repository\io\cucumber\docstring\7.15.0\docstring-7.15.0.jar;C:\Users\USUARIO\.m2\repository\io\cucumber\html-formatter\20.4.0\html-formatter-20.4.0.jar;C:\Users\USUARIO\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\USUARIO\.m2\repository\io\cucumber\ci-environment\10.0.0\ci-environment-10.0.0.jar;C:\Users\USUARIO\.m2\repository\io\cucumber\cucumber-java\7.15.0\cucumber-java-7.15.0.jar;C:\Users\USUARIO\.m2\repository\io\cucumber\cucumber-junit\7.15.0\cucumber-junit-7.15.0.jar;C:\Users\USUARIO\.m2\repository\org\apache\commons\commons-csv\1.5\commons-csv-1.5.jar;C:\Users\USUARIO\.m2\repository\net\serenity-bdd\serenity-screenplay\4.1.0\serenity-screenplay-4.1.0.jar;C:\Users\USUARIO\.m2\repository\org\seleniumhq\selenium\selenium-java\4.15.0\selenium-java-4.15.0.jar;C:\Users\USUARIO\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v117\4.15.0\selenium-devtools-v117-4.15.0.jar;C:\Users\USUARIO\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v118\4.15.0\selenium-devtools-v118-4.15.0.jar;C:\Users\USUARIO\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v119\4.15.0\selenium-devtools-v119-4.15.0.jar;C:\Users\USUARIO\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.15.0\selenium-devtools-v85-4.15.0.jar;C:\Users\USUARIO\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.15.0\selenium-remote-driver-4.15.0.jar;C:\Users\USUARIO\.m2\repository\io\opentelemetry\opentelemetry-api\1.28.0\opentelemetry-api-1.28.0.jar;C:\Users\USUARIO\.m2\repository\io\opentelemetry\opentelemetry-context\1.28.0\opentelemetry-context-1.28.0.jar;C:\Users\USUARIO\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.28.0\opentelemetry-exporter-logging-1.28.0.jar;C:\Users\USUARIO\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.28.0\opentelemetry-sdk-metrics-1.28.0.jar;C:\Users\USUARIO\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.28.0-alpha\opentelemetry-extension-incubator-1.28.0-alpha.jar;C:\Users\USUARIO\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.28.0\opentelemetry-sdk-logs-1.28.0.jar;C:\Users\USUARIO\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.28.0\opentelemetry-sdk-common-1.28.0.jar;C:\Users\USUARIO\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.28.0\opentelemetry-sdk-extension-autoconfigure-spi-1.28.0.jar;C:\Users\USUARIO\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.28.0\opentelemetry-sdk-extension-autoconfigure-1.28.0.jar;C:\Users\USUARIO\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.28.0-alpha\opentelemetry-api-events-1.28.0-alpha.jar;C:\Users\USUARIO\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.28.0\opentelemetry-sdk-trace-1.28.0.jar;C:\Users\USUARIO\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.28.0\opentelemetry-sdk-1.28.0.jar;C:\Users\USUARIO\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.28.0-alpha\opentelemetry-semconv-1.28.0-alpha.jar;C:\Users\USUARIO\.m2\repository\org\seleniumhq\selenium\selenium-os\4.15.0\selenium-os-4.15.0.jar;C:\Users\USUARIO\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\USUARIO\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.15.0\selenium-safari-driver-4.15.0.jar;C:\Users\USUARIO\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.0\junit-jupiter-api-5.10.0.jar;C:\Users\USUARIO\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\USUARIO\.m2\repository\org\junit\platform\junit-platform-commons\1.10.0\junit-platform-commons-1.10.0.jar;C:\Users\USUARIO\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\USUARIO\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.0\junit-jupiter-engine-5.10.0.jar;C:\Users\USUARIO\.m2\repository\org\junit\platform\junit-platform-engine\1.10.0\junit-platform-engine-1.10.0.jar;C:\Users\USUARIO\.m2\repository\org\junit\platform\junit-platform-suite\1.10.0\junit-platform-suite-1.10.0.jar;C:\Users\USUARIO\.m2\repository\org\junit\platform\junit-platform-suite-api\1.10.0\junit-platform-suite-api-1.10.0.jar;C:\Users\USUARIO\.m2\repository\org\junit\platform\junit-platform-suite-engine\1.10.0\junit-platform-suite-engine-1.10.0.jar;C:\Users\USUARIO\.m2\repository\org\junit\platform\junit-platform-suite-commons\1.10.0\junit-platform-suite-commons-1.10.0.jar;C:\Users\USUARIO\.m2\repository\org\junit\platform\junit-platform-launcher\1.10.0\junit-platform-launcher-1.10.0.jar;C:\Users\USUARIO\.m2\repository\org\slf4j\slf4j-simple\2.0.9\slf4j-simple-2.0.9.jar;C:\Users\USUARIO\.m2\repository\org\slf4j\slf4j-api\2.0.9\slf4j-api-2.0.9.jar; -sourcepath C:\Users\USUARIO\saucedemo-automation\src\test\java; -s C:\Users\USUARIO\saucedemo-automation\target\generated-test-sources\test-annotations -g -target 11 -source 11 -encoding UTF-8 -XDuseUnsharedTable=true
+[DEBUG] incrementalBuildHelper#beforeRebuildExecution
+[INFO] Compiling 16 source files with javac [debug target 11] to target\test-classes
+[DEBUG] incrementalBuildHelper#afterRebuildExecution
+[INFO] -------------------------------------------------------------
+[WARNING] COMPILATION WARNING : 
+[INFO] -------------------------------------------------------------
+[WARNING] system modules path not set in conjunction with -source 11
+[INFO] 1 warning
+[INFO] -------------------------------------------------------------
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /C:/Users/USUARIO/saucedemo-automation/src/test/java/com/saucedemo/runners/CucumberTestSuiteTest.java:[10,8] class CucumberTestSuite is public, should be declared in a file named CucumberTestSuite.java
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+[DEBUG] Adding C:\Users\USUARIO\saucedemo-automation\target\generated-test-sources\test-annotations to the project test-compile source roots but NOT the actual test-compile source roots:
+  C:\Users\USUARIO\saucedemo-automation\src\test\java
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  21.669 s
+[INFO] Finished at: 2026-03-12T10:33:30-05:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.15.0:testCompile (default-testCompile) on project saucedemo-automation: Compilation failure
+[ERROR] /C:/Users/USUARIO/saucedemo-automation/src/test/java/com/saucedemo/runners/CucumberTestSuiteTest.java:[10,8] class CucumberTestSuite is public, should be declared in a file named CucumberTestSuite.java
+[ERROR] 
+[ERROR] -> [Help 1]
+org.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.15.0:testCompile (default-testCompile) on project saucedemo-automation: Compilation failure
+/C:/Users/USUARIO/saucedemo-automation/src/test/java/com/saucedemo/runners/CucumberTestSuiteTest.java:[10,8] class CucumberTestSuite is public, should be declared in a file named CucumberTestSuite.java
+
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute2 (MojoExecutor.java:333)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute (MojoExecutor.java:316)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:212)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:174)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.access$000 (MojoExecutor.java:75)
+    at org.apache.maven.lifecycle.internal.MojoExecutor$1.run (MojoExecutor.java:162)
+    at org.apache.maven.plugin.DefaultMojosExecutionStrategy.execute (DefaultMojosExecutionStrategy.java:39)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:159)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:105)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:73)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:53)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:118)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:261)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:173)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:101)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:919)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:285)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:207)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:77)
+    at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:568)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:255)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:201)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:361)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:314)
+Caused by: org.apache.maven.plugin.compiler.CompilationFailureException: Compilation failure
+/C:/Users/USUARIO/saucedemo-automation/src/test/java/com/saucedemo/runners/CucumberTestSuiteTest.java:[10,8] class CucumberTestSuite is public, should be declared in a file named CucumberTestSuite.java
+
+    at org.apache.maven.plugin.compiler.AbstractCompilerMojo.executeReal (AbstractCompilerMojo.java:1319)
+    at org.apache.maven.plugin.compiler.AbstractCompilerMojo.execute (AbstractCompilerMojo.java:708)
+    at org.apache.maven.plugin.compiler.TestCompilerMojo.execute (TestCompilerMojo.java:208)
+    at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo (DefaultBuildPluginManager.java:126)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute2 (MojoExecutor.java:328)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute (MojoExecutor.java:316)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:212)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:174)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.access$000 (MojoExecutor.java:75)
+    at org.apache.maven.lifecycle.internal.MojoExecutor$1.run (MojoExecutor.java:162)
+    at org.apache.maven.plugin.DefaultMojosExecutionStrategy.execute (DefaultMojosExecutionStrategy.java:39)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:159)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:105)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:73)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:53)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:118)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:261)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:173)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:101)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:919)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:285)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:207)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:77)
+    at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:568)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:255)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:201)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:361)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:314)
+[ERROR] 
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[DEBUG] Shutting down adapter factory; available factories [file-lock, rwlock-local, semaphore-local, noop]; available name mappers [discriminating, file-gaecv, file-gav, file-hgaecv, file-hgav, file-static, gaecv, gav, static]
+[DEBUG] Shutting down 'file-lock' factory
+[DEBUG] Shutting down 'rwlock-local' factory
+[DEBUG] Shutting down 'semaphore-local' factory
+[DEBUG] Shutting down 'noop' factory
