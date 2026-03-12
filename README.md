@@ -68,6 +68,26 @@ index.html
 📊 Reportes de Serenity
 Una vez finalizada la ejecución, Serenity genera un reporte detallado con capturas de pantalla de cada paso. Puedes encontrarlo en:
 
-target/site/serenity/index.html
+target/site/serenity/index.html   
+
+
+
+¿Cómo ver archivo INDEX.HTML?
+
+1. Desde el Explorador de Archivos (La más rápida)
+Abre tu carpeta de proyecto: C:\Users\USUARIO\saucedemo-automation.
+
+Entra a la carpeta target.
+
+Luego entra a site.
+
+Finalmente entra a serenity.
+
+Busca el archivo llamado index.html, hazle clic derecho y selecciona "Abrir con" -> "Google Chrome" (o tu navegador preferido).
+
+2. Desde el IDE (IntelliJ o VS Code)
+En IntelliJ: Busca la carpeta target/site/serenity en el árbol de archivos de la izquierda. Haz clic derecho sobre index.html y selecciona Open in -> Browser -> Chrome.
+
+En VS Code: Haz clic derecho sobre el archivo en el explorador y selecciona Reveal in File Explorer, luego ábrelo normalmente.
 
 Nota: Se ha configurado el driver en serenity.properties para evitar las ventanas emergentes de seguridad de Chrome relacionadas con contraseñas públicas.
