@@ -54,6 +54,17 @@ Para ejecutar las pruebas y generar los reportes, utiliza el siguiente comando e
 Bash
 
 mvn clean verify
+
+
+
+
+Ubicación del reporte
+Una vez que termina la ejecución del comando mvn clean verify, los archivos se guardan en:
+C:\Users\USUARIO\saucedemo-automation\target\site\serenity\
+
+📄 ¿Cuál es el archivo principal?
+Dentro de esa carpeta verás muchísimos archivos, pero el que debes abrir en tu navegador (Chrome o Edge) es:
+index.html
 📊 Reportes de Serenity
 Una vez finalizada la ejecución, Serenity genera un reporte detallado con capturas de pantalla de cada paso. Puedes encontrarlo en:
 
